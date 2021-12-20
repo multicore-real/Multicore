@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 footer {
-	font-family: Franklin Gothic;
+	font-family: Franklin Gothic, serif;
 	font-size: 12px;
 	white-space: normal;
 }
@@ -14,34 +14,34 @@ footer a:hover {
 .end-text-left {
 	line-height: 25px;
 	margin-left: 8vw;
-	padding: 0px;
+	padding: 0;
 	display: inline-block;
 }
 .end-text-right {
 	line-height: 25px;
 	margin-left: 7vw;
-	padding: 0px;
+	padding: 0;
 	display: inline-block;
 }
 
 .end-text-link {
-	font-family: Franklin Gothic;
+	font-family: Franklin Gothic, serif;
 	display: inline;
 }
 
 .end {
 	font-size: 13px;
-	color: white;
-	padding: 50px 0px;
+	color: #EDEFFB;
+	padding: 50px 0;
 	background-color:#313131;
 }
 footer li{
-	font-family: Franklin Gothic;
+	font-family: Franklin Gothic, serif;
 	margin-left: 80px
 }
 .con {
 	transition: 200ms ease-in;
-	padding: 0px;
+	padding: 0;
 }
 .container {
 	position: inherit;

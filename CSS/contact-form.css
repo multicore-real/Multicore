@@ -1,7 +1,9 @@
 #fcf-form {
     display:block;
 }
-
+#contact-con {
+    background-color: #2E3B56;
+}
 .contact {
 	font-family: helvetica;
 	text-align: center;

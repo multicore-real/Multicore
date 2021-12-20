@@ -1,69 +1,87 @@
 <!doctype html>
-<html>
+<html lang="EN">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Photo Multicore</title>
-<script src="https://kit.fontawesome.com/911551dd30.js" crossorigin="anonymous"></script>
-<link rel="shortcut icon" type="image/x-icon" href="../logo/favicon.ico">
-<link href="../CSS/my-style.css" rel="stylesheet" type="text/css">
-<link href="../CSS/Photo.css" rel="stylesheet" type="text/css">
-<link href="../CSS/end class.css" rel="stylesheet" type="text/css">
-<script src="../Java-Script/style.js"></script>
-<!-- Core CSS file -->
-<link rel="stylesheet" href="../PhotoSwipe-master/dist/photoswipe.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Multicore</title>
+    <script src="https://kit.fontawesome.com/911551dd30.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="../logo/favicon.ico">
+    <link href="../CSS/my-style.css" rel="stylesheet" type="text/css">
+    <link href="../CSS/Photo.css" rel="stylesheet" type="text/css">
+    <link href="../CSS/end class.css" rel="stylesheet" type="text/css">
+    <script src="../Java-Script/style.js"></script>
+    <!-- Core CSS file -->
+    <link rel="stylesheet" href="../PhotoSwipe-master/dist/photoswipe.css">
 
-<!-- Skin CSS file (styling of UI - buttons, caption, etc.)
-     In the folder of skin CSS file there are also:
-     - .png and .svg icons sprite, 
-     - preloader.gif (for browsers that do not support CSS animations) -->
-<link rel="stylesheet" href="../PhotoSwipe-master/dist/default-skin/default-skin.css"> 
+    <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+         In the folder of skin CSS file there are also:
+         - .png and .svg icons sprite,
+         - preloader.gif (for browsers that do not support CSS animations) -->
+    <link rel="stylesheet" href="../PhotoSwipe-master/dist/default-skin/default-skin.css">
 
-<!-- Core JS file -->
-<script src="../PhotoSwipe-master/dist/photoswipe.min.js"></script> 
+    <!-- Core JS file -->
+    <script src="../PhotoSwipe-master/dist/photoswipe.min.js"></script>
 
-<!-- UI JS file -->
-<script src="../PhotoSwipe-master/dist/photoswipe-ui-default.min.js"></script> 
+    <!-- UI JS file -->
+    <script src="../PhotoSwipe-master/dist/photoswipe-ui-default.min.js"></script>
 
 </head>
-<body style="padding: 0px;
-			 background-color:#F4F4F4; 
-			margin: 0px;">
-	<div id="menu">	
-		<div class="scrollbarmenu">
-			<a href="../index.html" ><img src="../logo/logo.svg"
-		 alt ="Logo"
-		 height="45px"
-		 style="" class="logomenu"></a>
-		<div class="scroll">
-		<nav>
-		<a href="Products.html" class="menutext productsmenu"><d>Products</d></a>
-		<a href="Graphic-menu.html" class="menutext"><d>Graphic Design</d></a>
-		<a href="Photo.html" class="menutext"><d>Photo</d></a>
-		<a href="contact.html" style="float: right;" class="menutext"><d>Contact Me</d></a>
-		</nav>
-		</div>
-	</div>
+<body>
+
+
+<div id="menu">
+    <div class="scrollbarmenu">
+        <a href="../index.html"><img src="../logo/logo.svg"
+                                     alt="Logo"
+                                     height="45px"
+                                     style="" class="logomenu"></a>
+        <div class="scroll">
+            <nav>
+                <a href="Products.html" class="menutext productsmenu">
+                    <d>Products</d>
+                </a>
+                <a href="Graphic-menu.html" class="menutext">
+                    <d>Graphic Design</d>
+                </a>
+                <a href="Photo.html" class="menutext">
+                    <d>Photo</d>
+                </a>
+                <a href="contact.html" style="float: right;" class="menutext">
+                    <d>Contact Me</d>
+                </a>
+            </nav>
+        </div>
+    </div>
 </div>
 
-	
+
 <div id="menu-2-con">
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		<a href="../index.html" class="menutext-phone"><d>Home</d></a>
-		<br>
-		<a href="Products.html" class="menutext-phone"><d>Products</d></a>
-		<br>
-		<a href="Graphic-menu.html" class="menutext-phone"><d>Graphic Design</d></a>
-		<br>
-		<a href="Photo.html" class="menutext-phone"><d>Photo</d></a>
-		<br>
-		<a href="contact.html" class="menutext-phone"><d>Contact Me</d></a>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="../index.html" class="menutext-phone">
+            <d>Home</d>
+        </a>
+        <br>
+        <a href="Products.html" class="menutext-phone">
+            <d>Products</d>
+        </a>
+        <br>
+        <a href="Graphic-menu.html" class="menutext-phone">
+            <d>Graphic Design</d>
+        </a>
+        <br>
+        <a href="Photo.html" class="menutext-phone">
+            <d>Photo</d>
+        </a>
+        <br>
+        <a href="contact.html" class="menutext-phone">
+            <d>Contact Me</d>
+        </a>
+    </div>
+    <span class="fas fa-ellipsis-h" onclick="openNav()"></span>
 </div>
-<span class="fas fa-ellipsis-h" onclick="openNav()"></span>
-</div>
-		
-			
+
+
 <!-- Root element of PhotoSwipe. Must have class pswp. -->
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
@@ -104,15 +122,15 @@
                 <!-- element will get class pswp__preloader--active when preloader is running -->
                 <div class="pswp__preloader">
                     <div class="pswp__preloader__icn">
-                      <div class="pswp__preloader__cut">
-                        <div class="pswp__preloader__donut"></div>
-                      </div>
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
+                <div class="pswp__share-tooltip"></div>
             </div>
 
             <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
@@ -130,399 +148,401 @@
     </div>
 
 </div>
-	<div id="picture-con" class="my-gallery" style="margin-top: 0.4vw;" itemscope itemtype="http://schema.org/ImageGallery">
+<div id="picture-con" class="my-gallery" style="margin-bottom: -1.2vw;" itemscope itemtype="https://schema.org/ImageGallery">
 
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
         <a href="../Photo/IMG_2103.jpg" itemprop="contentUrl" data-size="1280x1920">
-           	<img src="../Photo/IMG_2103.jpg" alt="Picture"  class="pictures-row">
+            <img src="../Photo/IMG_2103.jpg" alt="Picture" class="pictures-row">
         </a>
     </figure>
-		
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="../Photo/IMG_3571.jpg" itemprop="contentUrl" data-size="1920x1280">
-           	<img src="../Photo/IMG_3571.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>    
 
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+        <a href="../Photo/IMG_3571.jpg" itemprop="contentUrl" data-size="1920x1280">
+            <img src="../Photo/IMG_3571.jpg" alt="Picture" class="pictures-row">
+        </a>
+    </figure>
+
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
         <a href="../Photo/IMG_4684.jpg" itemprop="contentUrl" data-size="1280x1920">
             <img src="../Photo/IMG_4684.jpg" alt="Picture" class="pictures-row">
         </a>
     </figure>
-		
-	<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
         <a href="../Photo/IMG_0950.jpg" itemprop="contentUrl" data-size="1920x1280">
-           	<img src="../Photo/IMG_0950.jpg" alt="Picture" class="pictures-row">
+            <img src="../Photo/IMG_0950.jpg" alt="Picture" class="pictures-row">
         </a>
     </figure>
-		
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
         <a href="../Photo/IMG_1069.jpg" itemprop="contentUrl" data-size="1280x1920">
             <img src="../Photo/IMG_1069.jpg" alt="Picture" class="pictures-row">
         </a>
     </figure>
-		
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
         <a href="../Photo/IMG_3733.jpg" itemprop="contentUrl" data-size="1280x1920">
-           	<img src="../Photo/IMG_3733.jpg" alt="Picture"  class="pictures-row">
+            <img src="../Photo/IMG_3733.jpg" alt="Picture" class="pictures-row">
         </a>
     </figure>
 
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
         <a href="../Photo/IMG_0958.jpg" itemprop="contentUrl" data-size="1280x1920">
             <img src="../Photo/IMG_0958.jpg" alt="Picture" class="pictures-row">
         </a>
     </figure>
-		
-	<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
         <a href="../Photo/IMG_3034.jpg" itemprop="contentUrl" data-size="1280x1920">
-           	<img src="../Photo/IMG_3034.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>    
-		
-	<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="../Photo/IMG_3840.jpg" itemprop="contentUrl" data-size="1920x1280">
-           	<img src="../Photo/IMG_3840.jpg" alt="Picture" class="pictures-row">
+            <img src="../Photo/IMG_3034.jpg" alt="Picture" class="pictures-row">
         </a>
     </figure>
-		
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+        <a href="../Photo/IMG_3840.jpg" itemprop="contentUrl" data-size="1920x1280">
+            <img src="../Photo/IMG_3840.jpg" alt="Picture" class="pictures-row">
+        </a>
+    </figure>
+
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
         <a href="../Photo/IMG_3579.jpg" itemprop="contentUrl" data-size="1280x1920">
             <img src="../Photo/IMG_3579.jpg" alt="Picture" class="pictures-row">
         </a>
     </figure>
-		
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
         <a href="../Photo/IMG_4745.jpg" itemprop="contentUrl" data-size="1920x1280">
             <img src="../Photo/IMG_4745.jpg" alt="Picture" class="pictures-row">
         </a>
     </figure>
 
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
         <a href="../Photo/IMG_2116.jpg" itemprop="contentUrl" data-size="1280x1920">
-           	<img src="../Photo/IMG_2116.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>    
-		
-	<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="../Photo/IMG_0732.jpg" itemprop="contentUrl" data-size="1280x1920">
-           	<img src="../Photo/IMG_0732.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>    
-		
-	<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="../Photo/IMG_0944.jpg" itemprop="contentUrl" data-size="1280x1920">
-           	<img src="../Photo/IMG_0944.jpg" alt="Picture" class="pictures-row">
+            <img src="../Photo/IMG_2116.jpg" alt="Picture" class="pictures-row">
         </a>
     </figure>
-		
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+        <a href="../Photo/IMG_0732.jpg" itemprop="contentUrl" data-size="1280x1920">
+            <img src="../Photo/IMG_0732.jpg" alt="Picture" class="pictures-row">
+        </a>
+    </figure>
+
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+        <a href="../Photo/IMG_0944.jpg" itemprop="contentUrl" data-size="1280x1920">
+            <img src="../Photo/IMG_0944.jpg" alt="Picture" class="pictures-row">
+        </a>
+    </figure>
+
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
         <a href="../Photo/IMG_4068.jpg" itemprop="contentUrl" data-size="1920x1280">
             <img src="../Photo/IMG_4068.jpg" alt="Picture" class="pictures-row">
         </a>
     </figure>
-		
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
         <a href="../Photo/IMG_3994.jpg" itemprop="contentUrl" data-size="1920x1280">
             <img src="../Photo/IMG_3994.jpg" alt="Picture" class="pictures-row">
         </a>
     </figure>
-		
-  	<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
         <a href="../Photo/IMG_4022.jpg" itemprop="contentUrl" data-size="1280x1920">
             <img src="../Photo/IMG_4022.jpg" alt="Picture" class="pictures-row">
         </a>
     </figure>
-		
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
         <a href="../Photo/IMG_3823.jpg" itemprop="contentUrl" data-size="1280x1920">
             <img src="../Photo/IMG_3823.jpg" alt="Picture" class="pictures-row">
         </a>
     </figure>
 
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
         <a href="../Photo/IMG_3905.jpg" itemprop="contentUrl" data-size="1280x1920">
-           	<img src="../Photo/IMG_3905.jpg" alt="Picture" class="pictures-row">
+            <img src="../Photo/IMG_3905.jpg" alt="Picture" class="pictures-row">
         </a>
-    </figure>    
-		
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    </figure>
+
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
         <a href="../Photo/IMG_4371.jpg" itemprop="contentUrl" data-size="1920x1280">
             <img src="../Photo/IMG_4371.jpg" alt="Picture" class="pictures-row">
         </a>
     </figure>
-			
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
         <a href="../Photo/IMG_4333-2.jpg" itemprop="contentUrl" data-size="1280x1920">
             <img src="../Photo/IMG_4333-2.jpg" alt="Picture" class="pictures-row">
         </a>
-	</figure>
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    </figure>
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
         <a href="../Photo/IMG_3806.jpg" itemprop="contentUrl" data-size="1920x1280">
-           	<img src="../Photo/IMG_3806.jpg" alt="Picture"  class="pictures-row">
+            <img src="../Photo/IMG_3806.jpg" alt="Picture" class="pictures-row">
         </a>
     </figure>
-		
-	<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
         <a href="../Photo/IMG_1486.jpg" itemprop="contentUrl" data-size="1280x1920">
-           	<img src="../Photo/IMG_1486.jpg" alt="Picture" class="pictures-row">
+            <img src="../Photo/IMG_1486.jpg" alt="Picture" class="pictures-row">
         </a>
-    </figure>    
-			
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    </figure>
+
+    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
         <a href="../Photo/IMG_4569.jpg" itemprop="contentUrl" data-size="1280x1920">
             <img src="../Photo/IMG_4569.jpg" alt="Picture" class="pictures-row">
         </a>
     </figure>
-		
-	</div>
-	<img src="../Photo/IMG_0958.jpg" style="padding-left: 90vw; opacity: 0; height: 10px;" alt="not show poicture">
+
+</div>
+<img src="../Photo/IMG_0958.jpg" style="padding-left: 90vw; opacity: 0; height: 10px;" alt="not show poicture">
 <script>
-var initPhotoSwipeFromDOM = function(gallerySelector) {
+    var initPhotoSwipeFromDOM = function (gallerySelector) {
 
-    // parse slide data (url, title, size ...) from DOM elements 
-    // (children of gallerySelector)
-    var parseThumbnailElements = function(el) {
-        var thumbElements = el.childNodes,
-            numNodes = thumbElements.length,
-            items = [],
-            figureEl,
-            linkEl,
-            size,
-            item;
+        // parse slide data (url, title, size ...) from DOM elements
+        // (children of gallerySelector)
+        var parseThumbnailElements = function (el) {
+            var thumbElements = el.childNodes,
+                numNodes = thumbElements.length,
+                items = [],
+                figureEl,
+                linkEl,
+                size,
+                item;
 
-        for(var i = 0; i < numNodes; i++) {
+            for (var i = 0; i < numNodes; i++) {
 
-            figureEl = thumbElements[i]; // <figure> element
+                figureEl = thumbElements[i]; // <figure> element
 
-            // include only element nodes 
-            if(figureEl.nodeType !== 1) {
-                continue;
+                // include only element nodes
+                if (figureEl.nodeType !== 1) {
+                    continue;
+                }
+
+                linkEl = figureEl.children[0]; // <a> element
+
+                size = linkEl.getAttribute('data-size').split('x');
+
+                // create slide object
+                item = {
+                    src: linkEl.getAttribute('href'),
+                    w: parseInt(size[0], 10),
+                    h: parseInt(size[1], 10)
+                };
+
+
+                if (figureEl.children.length > 1) {
+                    // <figcaption> content
+                    item.title = figureEl.children[1].innerHTML;
+                }
+
+                if (linkEl.children.length > 0) {
+                    // <img> thumbnail element, retrieving thumbnail url
+                    item.msrc = linkEl.children[0].getAttribute('src');
+                }
+
+                item.el = figureEl; // save link to element for getThumbBoundsFn
+                items.push(item);
             }
 
-            linkEl = figureEl.children[0]; // <a> element
-
-            size = linkEl.getAttribute('data-size').split('x');
-
-            // create slide object
-            item = {
-                src: linkEl.getAttribute('href'),
-                w: parseInt(size[0], 10),
-                h: parseInt(size[1], 10)
-            };
-
-
-
-            if(figureEl.children.length > 1) {
-                // <figcaption> content
-                item.title = figureEl.children[1].innerHTML; 
-            }
-
-            if(linkEl.children.length > 0) {
-                // <img> thumbnail element, retrieving thumbnail url
-                item.msrc = linkEl.children[0].getAttribute('src');
-            } 
-
-            item.el = figureEl; // save link to element for getThumbBoundsFn
-            items.push(item);
-        }
-
-        return items;
-    };
-
-    // find nearest parent element
-    var closest = function closest(el, fn) {
-        return el && ( fn(el) ? el : closest(el.parentNode, fn) );
-    };
-
-    // triggers when user clicks on thumbnail
-    var onThumbnailsClick = function(e) {
-        e = e || window.event;
-        e.preventDefault ? e.preventDefault() : e.returnValue = false;
-
-        var eTarget = e.target || e.srcElement;
-
-        // find root element of slide
-        var clickedListItem = closest(eTarget, function(el) {
-            return (el.tagName && el.tagName.toUpperCase() === 'FIGURE');
-        });
-
-        if(!clickedListItem) {
-            return;
-        }
-
-        // find index of clicked item by looping through all child nodes
-        // alternatively, you may define index via data- attribute
-        var clickedGallery = clickedListItem.parentNode,
-            childNodes = clickedListItem.parentNode.childNodes,
-            numChildNodes = childNodes.length,
-            nodeIndex = 0,
-            index;
-
-        for (var i = 0; i < numChildNodes; i++) {
-            if(childNodes[i].nodeType !== 1) { 
-                continue; 
-            }
-
-            if(childNodes[i] === clickedListItem) {
-                index = nodeIndex;
-                break;
-            }
-            nodeIndex++;
-        }
-
-
-
-        if(index >= 0) {
-            // open PhotoSwipe if valid index found
-            openPhotoSwipe( index, clickedGallery );
-        }
-        return false;
-    };
-
-    // parse picture index and gallery index from URL (#&pid=1&gid=2)
-    var photoswipeParseHash = function() {
-        var hash = window.location.hash.substring(1),
-        params = {};
-
-        if(hash.length < 5) {
-            return params;
-        }
-
-        var vars = hash.split('&');
-        for (var i = 0; i < vars.length; i++) {
-            if(!vars[i]) {
-                continue;
-            }
-            var pair = vars[i].split('=');  
-            if(pair.length < 2) {
-                continue;
-            }           
-            params[pair[0]] = pair[1];
-        }
-
-        if(params.gid) {
-            params.gid = parseInt(params.gid, 10);
-        }
-
-        return params;
-    };
-
-    var openPhotoSwipe = function(index, galleryElement, disableAnimation, fromURL) {
-        var pswpElement = document.querySelectorAll('.pswp')[0],
-            gallery,
-            options,
-            items;
-
-        items = parseThumbnailElements(galleryElement);
-
-        // define options (if needed)
-        options = {
-
-            // define gallery index (for URL)
-            galleryUID: galleryElement.getAttribute('data-pswp-uid'),
-
-            getThumbBoundsFn: function(index) {
-                // See Options -> getThumbBoundsFn section of documentation for more info
-                var thumbnail = items[index].el.getElementsByTagName('img')[0], // find thumbnail
-                    pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
-                    rect = thumbnail.getBoundingClientRect(); 
-
-                return {x:rect.left, y:rect.top + pageYScroll, w:rect.width};
-            }
-
+            return items;
         };
 
-        // PhotoSwipe opened from URL
-        if(fromURL) {
-            if(options.galleryPIDs) {
-                // parse real index when custom PIDs are used 
-                // http://photoswipe.com/documentation/faq.html#custom-pid-in-url
-                for(var j = 0; j < items.length; j++) {
-                    if(items[j].pid == index) {
-                        options.index = j;
-                        break;
+        // find nearest parent element
+        var closest = function closest(el, fn) {
+            return el && (fn(el) ? el : closest(el.parentNode, fn));
+        };
+
+        // triggers when user clicks on thumbnail
+        var onThumbnailsClick = function (e) {
+            e = e || window.event;
+            e.preventDefault ? e.preventDefault() : e.returnValue = false;
+
+            var eTarget = e.target || e.srcElement;
+
+            // find root element of slide
+            var clickedListItem = closest(eTarget, function (el) {
+                return (el.tagName && el.tagName.toUpperCase() === 'FIGURE');
+            });
+
+            if (!clickedListItem) {
+                return;
+            }
+
+            // find index of clicked item by looping through all child nodes
+            // alternatively, you may define index via data- attribute
+            var clickedGallery = clickedListItem.parentNode,
+                childNodes = clickedListItem.parentNode.childNodes,
+                numChildNodes = childNodes.length,
+                nodeIndex = 0,
+                index;
+
+            for (var i = 0; i < numChildNodes; i++) {
+                if (childNodes[i].nodeType !== 1) {
+                    continue;
+                }
+
+                if (childNodes[i] === clickedListItem) {
+                    index = nodeIndex;
+                    break;
+                }
+                nodeIndex++;
+            }
+
+
+            if (index >= 0) {
+                // open PhotoSwipe if valid index found
+                openPhotoSwipe(index, clickedGallery);
+            }
+            return false;
+        };
+
+        // parse picture index and gallery index from URL (#&pid=1&gid=2)
+        var photoswipeParseHash = function () {
+            var hash = window.location.hash.substring(1),
+                params = {};
+
+            if (hash.length < 5) {
+                return params;
+            }
+
+            var vars = hash.split('&');
+            for (var i = 0; i < vars.length; i++) {
+                if (!vars[i]) {
+                    continue;
+                }
+                var pair = vars[i].split('=');
+                if (pair.length < 2) {
+                    continue;
+                }
+                params[pair[0]] = pair[1];
+            }
+
+            if (params.gid) {
+                params.gid = parseInt(params.gid, 10);
+            }
+
+            return params;
+        };
+
+        var openPhotoSwipe = function (index, galleryElement, disableAnimation, fromURL) {
+            var pswpElement = document.querySelectorAll('.pswp')[0],
+                gallery,
+                options,
+                items;
+
+            items = parseThumbnailElements(galleryElement);
+
+            // define options (if needed)
+            options = {
+
+                // define gallery index (for URL)
+                galleryUID: galleryElement.getAttribute('data-pswp-uid'),
+
+                getThumbBoundsFn: function (index) {
+                    // See Options -> getThumbBoundsFn section of documentation for more info
+                    var thumbnail = items[index].el.getElementsByTagName('img')[0], // find thumbnail
+                        pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
+                        rect = thumbnail.getBoundingClientRect();
+
+                    return {x: rect.left, y: rect.top + pageYScroll, w: rect.width};
+                }
+
+            };
+
+            // PhotoSwipe opened from URL
+            if (fromURL) {
+                if (options.galleryPIDs) {
+                    // parse real index when custom PIDs are used
+                    // http://photoswipe.com/documentation/faq.html#custom-pid-in-url
+                    for (var j = 0; j < items.length; j++) {
+                        if (items[j].pid === index) {
+                            options.index = j;
+                            break;
+                        }
                     }
+                } else {
+                    // in URL indexes start from 1
+                    options.index = parseInt(index, 10) - 1;
                 }
             } else {
-                // in URL indexes start from 1
-                options.index = parseInt(index, 10) - 1;
+                options.index = parseInt(index, 10);
             }
-        } else {
-            options.index = parseInt(index, 10);
+
+            // exit if index not found
+            if (isNaN(options.index)) {
+                return;
+            }
+
+            if (disableAnimation) {
+                options.showAnimationDuration = 0;
+            }
+
+            // Pass data to PhotoSwipe and initialize it
+            gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
+            gallery.init();
+        };
+
+        // loop through all gallery elements and bind events
+        var galleryElements = document.querySelectorAll(gallerySelector);
+
+        for (var i = 0, l = galleryElements.length; i < l; i++) {
+            galleryElements[i].setAttribute('data-pswp-uid', i + 1);
+            galleryElements[i].onclick = onThumbnailsClick;
         }
 
-        // exit if index not found
-        if( isNaN(options.index) ) {
-            return;
+        // Parse URL and open gallery if it contains #&pid=3&gid=1
+        var hashData = photoswipeParseHash();
+        if (hashData.pid && hashData.gid) {
+            openPhotoSwipe(hashData.pid, galleryElements[hashData.gid - 1], true, true);
         }
-
-        if(disableAnimation) {
-            options.showAnimationDuration = 0;
-        }
-
-        // Pass data to PhotoSwipe and initialize it
-        gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
-        gallery.init();
     };
 
-    // loop through all gallery elements and bind events
-    var galleryElements = document.querySelectorAll( gallerySelector );
-
-    for(var i = 0, l = galleryElements.length; i < l; i++) {
-        galleryElements[i].setAttribute('data-pswp-uid', i+1);
-        galleryElements[i].onclick = onThumbnailsClick;
-    }
-
-    // Parse URL and open gallery if it contains #&pid=3&gid=1
-    var hashData = photoswipeParseHash();
-    if(hashData.pid && hashData.gid) {
-        openPhotoSwipe( hashData.pid ,  galleryElements[ hashData.gid - 1 ], true, true );
-    }
-};
-
-// execute above function
-initPhotoSwipeFromDOM('.my-gallery');
+    // execute above function
+    initPhotoSwipeFromDOM('.my-gallery');
 </script>
-	
-	<footer>
-	<div class="end">
-		<div class="end-text">
-			<div class="end-text-left">
-			<d style="opacity: 0.7;">Phone:</d>
-			<br>
-			<d style="opacity: 0.7;">Mail:</d>
-			<br>
-			<d style="opacity: 0.7;">Photo:</d>
-			<br>
-			</div>
-			<div class="end-text-right">
-			<d style="opacity: 0.7;"> +47 451 53 051</d>
-			<br>
-			<div class="end-text-link"><d><a href="mailto:eliasheggernes@gmail.com"
-method="POST"
-enctype="multipart/form-data"
-name="EmailForm"		   
-style="color: white; text-decoration: none; opacity: 0.7;">
+
+<footer>
+    <div class="end">
+        <div class="end-text">
+            <div class="end-text-left">
+                <d style="opacity: 0.7;">Phone:</d>
+                <br>
+                <d style="opacity: 0.7;">Mail:</d>
+                <br>
+                <d style="opacity: 0.7;">Photo:</d>
+                <br>
+            </div>
+            <div class="end-text-right">
+                <d style="opacity: 0.7;"> +47 451 53 051</d>
+                <br>
+                <div class="end-text-link">
+                    <d><a href="mailto:eliasheggernes@gmail.com"
+                          style="color: #EDEFFB; text-decoration: none; opacity: 0.7;">
 
 
-Elias Fjøren Heggernes</a></d></div><br>
+                        Elias Fjøren Heggernes</a></d>
+                </div>
+                <br>
 
-			<div class="end-text-link"><d><a href="https://www.instagram.com/anna.monstad/"	   
-style="color: white; text-decoration: none; opacity: 0.7;" target="_blank">
-Anna Silgjerd Monstad,</a></d></div>
-			<div class="end-text-link"><d><a href="https://www.instagram.com/eliasheggernes/"	   
-style="color: white; text-decoration: none; opacity: 0.7;" target="_blank">
-Elias Fjøren Heggernes</a></d></div>
-			<br>
-			</div>
-			
-		</div>
-			<img src="../Pictures-all/copyright 1.png"
-			 alt="Copyright"
-			 height="30px;"
-			 style="float: right;">
-	</div>
+                <div class="end-text-link">
+                    <d><a href="https://www.instagram.com/anna.monstad/"
+                          style="color: #EDEFFB; text-decoration: none; opacity: 0.7;" target="_blank">
+                        Anna Silgjerd Monstad,</a></d>
+                </div>
+                <div class="end-text-link">
+                    <d><a href="https://www.instagram.com/eliasheggernes/"
+                          style="color: #EDEFFB; text-decoration: none; opacity: 0.7;" target="_blank">
+                        Elias Fjøren Heggernes</a></d>
+                </div>
+                <br>
+            </div>
+
+        </div>
+        <img src="../Pictures-all/copyright 1.png"
+             alt="Copyright"
+             height="30px;"
+             style="float: right;">
+    </div>
 </footer>
 </body>
 </html>

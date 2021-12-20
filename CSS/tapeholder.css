@@ -1,7 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 #front {
-	color: white;
+	background-color: #2E3B56;
+	color: #EDEFFB;
 	text-shadow: -2px 2px 8px rgba(0,0,0,0.5);
 	background-image:url("../Redigerte bilder/Tape_holder_front_med_tape soni web.png");
 	background-position: center;

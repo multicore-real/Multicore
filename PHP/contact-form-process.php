@@ -78,9 +78,7 @@ if (isset($_POST['Email'])) {
 <link href="../CSS/end class.css" rel="stylesheet" type="text/css">
 <script src="../Java-Script/style.js"></script>
 </head>
-<body style="padding: 0px;
-			 background-color:#F4F4F4; 
-			margin: 0px;">
+<body>
 
 <div id="menu">	
 		<div class="scrollbarmenu">
@@ -140,16 +138,16 @@ if (isset($_POST['Email'])) {
 method="POST"
 enctype="multipart/form-data"
 name="EmailForm"		   
-style="color: white; text-decoration: none; opacity: 0.7;" target="_blank">
+style="color: #EDEFFB; text-decoration: none; opacity: 0.7;">
 
 
 Elias Fjøren Heggernes</a></d></div><br>
 
 			<div class="end-text-link"><d><a href="https://www.instagram.com/anna.monstad/"	   
-style="color: white; text-decoration: none; opacity: 0.7;" target="_blank">
+style="color: #EDEFFB; text-decoration: none; opacity: 0.7;" target="_blank">
 Anna Silgjerd Monstad,</a></d></div>
 			<div class="end-text-link"><d><a href="https://www.instagram.com/eliasheggernes/"	   
-style="color: white; text-decoration: none; opacity: 0.7;">
+style="color: #EDEFFB; text-decoration: none; opacity: 0.7;" target="_blank">
 Elias Fjøren Heggernes</a></d></div>
 			<br>
 			</div>
