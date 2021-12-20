@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+#front {
+	color: white;
+	text-shadow: -2px 2px 8px rgba(0,0,0,0.5);
+	background-image:url("../Redigerte bilder/Tape_holder_front_med_tape soni web.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	font-family: helvetica;
+	text-transform:uppercase;
+	text-indent:1em;
+	padding: 200px 0px;
+	text-align: center;
+}
+
+
+.infotext {
+	font-family: Helvetica;
+	color: black;
+	margin-left: auto;
+	text-align: center;
+	margin-top: 100px;
+}

@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+footer {
+	font-family: Franklin Gothic;
+	font-size: 12px;
+}
+
+footer a:hover {
+	opacity: 1 !important;
+	text-decoration: underline !important;
+}
+
+.end-text-left {
+	line-height: 25px;
+	margin-left: 100px;
+	padding: 0px;
+	display: inline-block;
+}
+.end-text-right {
+	line-height: 25px;
+	margin-left: 70px;
+	padding: 0px;
+	display: inline-block;
+}
+
+.end-text-link {
+	font-family: Franklin Gothic;
+	display: inline;
+}
+
+.end {
+	font-size: 13px;
+	color: white;
+	padding: 50px 0px;
+	background-color:#313131
+}
+footer li{
+	font-family: Franklin Gothic;
+	margin-left: 80px
+}
+.con {
+	margin-left: 100px;
+	transition: 200ms ease-in;
+	padding: 0px;
+}
+.container {
+	position: inherit;
+	margin-top: 100px;
+	height: 1300px;
+}

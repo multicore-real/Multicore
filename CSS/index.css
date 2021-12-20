@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media only screen and (max-width : 451px) and (min-width : 352px){
+	#front-multicore {
+		font-size: 25px !important;
+	}
+}
+@media only screen and (max-width : 352px) and (min-width : 274px){
+	#front-multicore {
+		font-size: 20px !important;
+	}
+}
+@media only screen and (max-width : 274px){
+	#front-multicore {
+		font-size: 15px !important;
+	}
+}
+#front-multicore {
+	background-attachment: fixed;
+	background-image: url("../PC Stand/Elias-pose web.png");
+	background-repeat: no-repeat;
+	background-size: auto 80%;
+	background-position: center;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+	text-shadow: -2px 2px 8px rgba(0,0,0,0.5);
+	font-family: helvetica;
+	text-transform:uppercase;
+	z-index: 1;
+	padding-bottom: 75vh;
+}
+#front-multicore-container {
+}
+#Multicore-txt {
+	z-index: 1;
+	position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.front-text {
+	font-size: 20px;
+	position: relative;
+	padding-bottom: 15vh;
+	padding-top: 15vh;
+	background-color:#282828;
+	color: white;
+	font-family: helvetica;
+	z-index: 2;
+}
+.front-text d{
+	margin-left: 300px !important;
+	position: absolute;
+	margin: 0;
+  	top: 50%;
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+	height: fit-content;
+	display: inline-block;
+	text-align: center;
+	max-width: 350px;
+}
+
+@media only screen and (max-width : 1250px){
+	.front-text d{
+		margin-left: 20px !important;
+		position: inherit;
+		 top: 50%;
+  		-ms-transform: translateY(0%) !important;
+  		transform: translateY(0%) !important;
+		padding: 0;
+		max-width: 250px;
+	}
+	.icon-with-text{
+		margin-left: 35%!important;
+}
+	.icon-with-text d{
+		transform: translateY(45%)
+}
+}
+
+@media only screen and (max-width : 650px){
+	.icon-with-text{
+	margin-left: 30%!important;
+}
+}
+
+@media only screen and (max-width : 520px){
+	.icon-with-text{
+	margin-left: 10vw!important;
+}
+}
+@media only screen and (min-width : 1850px) and (max-width : 2350px){
+	.icon-with-text{
+	margin-left: 35%!important;
+}
+}
+@media only screen and (min-width : 2350px){
+	.icon-with-text{
+	margin-left: 39%!important;
+}
+}
+.icon-with-text{
+	line-height: 22px;
+	letter-spacing: 2px;
+	margin-left: 30%;
+}
+
+img {
+	margin-right: 10px;
+}
+.bc-pic-fit {
+	background-color:white;
+	filter: brightness(0.5);
+	z-index: 2;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	padding-bottom: 90vh;
+}

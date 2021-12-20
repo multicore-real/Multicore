@@ -1,0 +1,27 @@
+@charset "UTF-8";
+.pictures-row{
+	padding-left: 0.4vw;
+	padding-bottom: 0.4vw;
+	width: auto;
+	max-height: 33vw;
+	vertical-align: top;
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.2s;
+	transform: scale(1);
+}
+figure {
+	margin-left: -4px !important;
+	margin: auto;
+	display: inline-block;
+}
+.pictures-row:hover {
+	transform: scale(1.02)
+}
+#picture-con {
+	text-align: center;
+}
+@media only screen and (max-width : 1000px){
+	.pictures-row{
+		max-height: 40vw !important;
+	}
+}
