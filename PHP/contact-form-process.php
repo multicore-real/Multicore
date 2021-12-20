@@ -84,16 +84,16 @@ if (isset($_POST['Email'])) {
 
 <div id="menu">	
 		<div class="scrollbarmenu">
-			<a href="../HTML/index.html" ><img src="../logo/logo.svg"
+			<a href="../index.html" ><img src="../logo/logo.svg"
 		 alt ="Logo"
 		 height="45px"
 		 style="" class="logomenu"></a>
 		<div class="scroll">
 		<nav>
-		<a href="../HTML/Products.html" class="menutext productsmenu"><d>Products</d></a>
-		<a href="../HTML/Graphic-menu.html" class="menutext"><d>Graphic Design</d></a>
-		<a href="../HTML/Photo.html" class="menutext"><d>Photo</d></a>
-		<a href="../HTML/contact.html" style="float: right;" class="menutext"><d>Contact Me</d></a>
+		<a href="Products.html" class="menutext productsmenu"><d>Products</d></a>
+		<a href="Graphic-menu.html" class="menutext"><d>Graphic Design</d></a>
+		<a href="Photo.html" class="menutext"><d>Photo</d></a>
+		<a href="contact.html" style="float: right;" class="menutext"><d>Contact Me</d></a>
 		</nav>
 		</div>
 	</div>
@@ -103,15 +103,15 @@ if (isset($_POST['Email'])) {
 <div id="menu-2-con">
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		<a href="../HTML/index.html" class="menutext-phone"><d>Home</d></a>
+		<a href="../index.html" class="menutext-phone"><d>Home</d></a>
 		<br>
-		<a href="../HTML/Products.html" class="menutext-phone"><d>Products</d></a>
+		<a href="Products.html" class="menutext-phone"><d>Products</d></a>
 		<br>
-		<a href="../HTML/Graphic-menu.html" class="menutext-phone"><d>Graphic Design</d></a>
+		<a href="Graphic-menu.html" class="menutext-phone"><d>Graphic Design</d></a>
 		<br>
-		<a href="../HTML/Photo.html" class="menutext-phone"><d>Photo</d></a>
+		<a href="Photo.html" class="menutext-phone"><d>Photo</d></a>
 		<br>
-		<a href="../HTML/contact.html" class="menutext-phone"><d>Contact Me</d></a>
+		<a href="contact.html" class="menutext-phone"><d>Contact Me</d></a>
 </div>
 <span class="fas fa-ellipsis-h" onclick="openNav()"></span>
 </div>
