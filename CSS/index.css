@@ -16,22 +16,19 @@
 		font-size: 15px !important;
 	}
 }
+
 #front-multicore {
-	background-attachment: fixed;
-	background-image: url("../PC Stand/Elias-pose web.png");
-	background-repeat: no-repeat;
-	background-size: auto 80%;
-	background-position: center;
 	text-align: center;
 	font-size: 35px;
 	color: #EDEFFB;
-	background-color: #2E3B56;
+	background:url('../PC Stand/Elias-pose web.png')center 100px / contain no-repeat fixed , linear-gradient(180deg, rgba(27,38,54,1) 0%, rgba(28,39,56,1) 16%, rgba(46,59,86,1) 100%) fixed;
 	text-shadow: -2px 2px 8px rgba(0,0,0,0.5);
 	font-family: helvetica, serif;
 	text-transform:uppercase;
 	z-index: 1;
 	padding-bottom: 75vh;
 }
+
 #Multicore-txt {
 	z-index: 1;
 	position: fixed;
@@ -97,6 +94,17 @@
 #slides-menu-con {
 	z-index: 2;
 	position: relative;
-	box-shadow: 0px 0px 70px rgba(0,0,0,0.5);
+	box-shadow: 0 0 70px rgba(0,0,0,0.3);
 	background-color: #D9DBBC;
+}
+
+@media only screen and (max-width : 1000px){
+	.icon-and-img {
+		border-style: none;
+		border-radius: 0;
+		width: 100%;
+	}
+	.icon {
+		display: none;
+	}
 }
