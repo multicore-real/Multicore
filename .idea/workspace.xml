@@ -3,10 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="3a81a4f7-f492-4896-96e8-439ecb5cc667" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/contact-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/contact-form.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Colors.rtf" beforeDir="false" afterPath="$PROJECT_DIR$/Colors.rtf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/Graphic-menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Graphic-menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/Photo.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Photo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/Products.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Products.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PC Stand/Elias-pose web.png" beforeDir="false" afterPath="$PROJECT_DIR$/PC Stand/Elias-pose web.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/pcstand.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/pcstand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/tapeholder.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/tapeholder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/contact-form-process.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/contact-form-process.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures-all/3D printer web.png" beforeDir="false" afterPath="$PROJECT_DIR$/Pictures-all/3D printer web.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures-all/Camera web.png" beforeDir="false" afterPath="$PROJECT_DIR$/Pictures-all/Camera web.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures-all/web.png" beforeDir="false" afterPath="$PROJECT_DIR$/Pictures-all/web.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +58,8 @@
       <updated>1640026050220</updated>
       <workItem from="1640026052294" duration="1438000" />
       <workItem from="1640027498317" duration="18428000" />
-      <workItem from="1640168962819" duration="4728000" />
+      <workItem from="1640168962819" duration="5326000" />
+      <workItem from="1640266917484" duration="10927000" />
     </task>
     <servers />
   </component>
