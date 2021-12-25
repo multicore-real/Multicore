@@ -68,48 +68,48 @@ if (isset($_POST['Email'])) {
 ?>
 
     <!-- include your success message below -->
+<html lang="NOR">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Thank you for contacting us</title>
+<title>Takk for at du kontakter oss</title>
 <script src="https://kit.fontawesome.com/911551dd30.js" crossorigin="anonymous"></script>
 <link rel="shortcut icon" type="image/x-icon" href="../logo/favicon.ico">
 <link href="../CSS/my-style.css" rel="stylesheet" type="text/css">
 <link href="../CSS/end class.css" rel="stylesheet" type="text/css">
 <script src="../Java-Script/style.js"></script>
+<script src="../Java-Script/my-style.js"></script>
 </head>
 <body>
 
-<div id="menu">	
-		<div class="scrollbarmenu">
+<div id="menu-scroll">
 			<a href="../index.html" ><img src="../logo/logo.svg"
 		 alt ="Logo"
 		 height="45px"
 		 style="" class="logomenu"></a>
 		<div class="scroll">
 		<nav>
-		<a href="Products.html" class="menutext productsmenu"><d>Products</d></a>
-		<a href="Graphic-menu.html" class="menutext"><d>Graphic Design</d></a>
-		<a href="Photo.html" class="menutext"><d>Photo</d></a>
-		<a href="contact.html" style="float: right;" class="menutext"><d>Contact Me</d></a>
+		<a href="../html/Products.html" class="menutext productsmenu"><d>Produkter</d></a>
+		<a href="../html/Graphic-menu.html" class="menutext"><d>Grafisk Design</d></a>
+		<a href="../html/Photo.html" class="menutext"><d>Foto</d></a>
+		<a href="../html/contact.html" style="float: right;" class="menutext"><d>Kontakt Meg</d></a>
 		</nav>
-		</div>
 	</div>
 </div>
+<div id="hide"></div>
 
-	
 <div id="menu-2-con">
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		<a href="../index.html" class="menutext-phone"><d>Home</d></a>
+		<a href="../index.html" class="menutext-phone"><d>Hjem</d></a>
 		<br>
-		<a href="Products.html" class="menutext-phone"><d>Products</d></a>
+		<a href="../html/Products.html" class="menutext-phone"><d>Produkter</d></a>
 		<br>
-		<a href="Graphic-menu.html" class="menutext-phone"><d>Graphic Design</d></a>
+		<a href="../html/Graphic-menu.html" class="menutext-phone"><d>Grafisk Design</d></a>
 		<br>
-		<a href="Photo.html" class="menutext-phone"><d>Photo</d></a>
+		<a href="../html/Photo.html" class="menutext-phone"><d>Foto</d></a>
 		<br>
-		<a href="contact.html" class="menutext-phone"><d>Contact Me</d></a>
+		<a href="../html/contact.html" class="menutext-phone"><d>Kontakt Meg</d></a>
 </div>
 <span class="fas fa-ellipsis-h" onclick="openNav()"></span>
 </div>
@@ -134,14 +134,14 @@ if (isset($_POST['Email'])) {
 			<div class="end-text-right">
 			<d style="opacity: 0.7;"> +47 451 53 051</d>
 			<br>
-			<div class="end-text-link"><d><a href="mailto:eliasheggernes@gmail.com"
-method="POST"
-enctype="multipart/form-data"
-name="EmailForm"		   
-style="color: #EDEFFB; text-decoration: none; opacity: 0.7;">
+                <div class="end-text-link">
+                    <d><a href="mailto:eliasheggernes@gmail.com"
+                          style="color: #EDEFFB; text-decoration: none; opacity: 0.7;">
 
 
-Elias Fjøren Heggernes</a></d></div><br>
+                        eliasheggernes@gmail.com</a></d>
+                </div>
+                <br>
 
 			<div class="end-text-link"><d><a href="https://www.instagram.com/anna.monstad/"	   
 style="color: #EDEFFB; text-decoration: none; opacity: 0.7;" target="_blank">

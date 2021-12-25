@@ -10,34 +10,34 @@
     <link href="CSS/end class.css" rel="stylesheet" type="text/css">
     <link href="CSS/index.css" rel="stylesheet" type="text/css">
     <script src="Java-Script/style.js"></script>
+    <script src="Java-Script/my-style.js"></script>
 </head>
 <body>
 
-<div id="menu">
-    <div class="scrollbarmenu">
-        <a href="index.html"><img src="logo/logo.svg"
-                                  alt="Logo"
-                                  height="45px"
-                                  style="" class="logomenu"></a>
-        <div class="scroll">
-            <nav>
-                <a href="HTML/Products.html" class="menutext productsmenu">
-                    <d>Produkter</d>
-                </a>
-                <a href="HTML/Graphic-menu.html" class="menutext">
-                    <d>Grafisk Design</d>
-                </a>
-                <a href="HTML/Photo.html" class="menutext">
-                    <d>Foto</d>
-                </a>
-                <a href="HTML/contact.html" style="float: right;" class="menutext">
-                    <d>Kontakt Meg</d>
-                </a>
-            </nav>
-        </div>
+<div id="menu-scroll">
+    <a href="index.html"><img src="logo/logo.svg"
+                              alt="Logo"
+                              height="45px"
+                              style="" class="logomenu"></a>
+    <div class="scroll">
+        <nav>
+            <a href="HTML/Products.html" class="menutext productsmenu">
+                <d>Produkter</d>
+            </a>
+            <a href="HTML/Graphic-menu.html" class="menutext">
+                <d>Grafisk Design</d>
+            </a>
+            <a href="HTML/Photo.html" class="menutext">
+                <d>Foto</d>
+            </a>
+            <a href="HTML/contact.html" style="float: right;" class="menutext">
+                <d>Kontakt Meg</d>
+            </a>
+
+        </nav>
     </div>
 </div>
-
+<div id="hide"></div>
 
 <div id="menu-2-con">
     <div id="mySidenav" class="sidenav">
@@ -85,27 +85,12 @@
     </div>
 </div>
 
-<script>
-    window.onscroll = function () {
-        if ((window.pageYOffset) >= 550) {
-            var page = document.getElementById('Multicore-txt')
-            page.style.display = "none";
-            page.style.animation = "animation: s 2s;";
-        } else {
-            var page = document.getElementById('Multicore-txt')
-            page.style.display = "inline";
-            page.style.animation = "animation: s 2s;";
-        }
-    }
-</script>
-
     <div class="icon-and-img"><a href="HTML/Graphic-menu.html">
         <img class="icon" src="Pictures-all/web.png" alt="Web photo"></a>
         <br>
         <h1 class="icon-header">Grafisk Design</h1>
         <div class="front-text">
-            <d>I think Graphic Design is a great tool and very entertaining to do. I have therefore created all the graphic
-                designs you see on this website.
+            <d>Jeg synes grafisk design er et bra redskap og gøy å holde på med. Derfor har jeg lagd all grafikken på denne nettsiden.
             </d>
         </div>
     </div>
