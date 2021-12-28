@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a81a4f7-f492-4896-96e8-439ecb5cc667" name="Changes" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/Java-Script/products.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/presets/end.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/presets/menu.html" afterDir="false" />
@@ -11,12 +12,21 @@
       <change beforePath="$PROJECT_DIR$/CSS/Graphic.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/Graphic.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/Photo.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/Photo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/my-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/my-style.css" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/Java-Script/my-style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/my-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/my-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Colors.rtf" beforeDir="false" afterPath="$PROJECT_DIR$/Colors.rtf" afterDir="false" />
+>>>>>>> parent of dafeb3c (small menu phone update)
       <change beforePath="$PROJECT_DIR$/HTML/Graphic-menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Graphic-menu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML/Photo.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Photo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML/Products.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Products.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML/pcstand.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/pcstand.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML/tapeholder.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/tapeholder.html" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/Java-Script/my-style.js" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Script/my-style.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP/contact-form-process.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/contact-form-process.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Photo/IMG_0732.jpg" beforeDir="false" />
@@ -34,6 +44,12 @@
       <change beforePath="$PROJECT_DIR$/Photo/IMG_3994.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Photo/IMG_4068.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Photo/IMG_4745.jpg" beforeDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Java-Script/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Script/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/contact-form-process.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/contact-form-process.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures-all/3D printer.png" beforeDir="false" afterPath="$PROJECT_DIR$/Pictures-all/3D printer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pictures-all/web.png" beforeDir="false" afterPath="$PROJECT_DIR$/Pictures-all/web.png" afterDir="false" />
+>>>>>>> parent of dafeb3c (small menu phone update)
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,10 +118,14 @@
       <workItem from="1640168962819" duration="5326000" />
       <workItem from="1640266917484" duration="17835000" />
       <workItem from="1640457511306" duration="7818000" />
+<<<<<<< HEAD
       <workItem from="1640470416486" duration="6174000" />
       <workItem from="1640515921789" duration="1101000" />
       <workItem from="1640631829043" duration="9838000" />
       <workItem from="1640695951845" duration="8378000" />
+=======
+      <workItem from="1640470416486" duration="3860000" />
+>>>>>>> parent of dafeb3c (small menu phone update)
     </task>
     <servers />
   </component>

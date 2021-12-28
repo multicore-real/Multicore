@@ -120,8 +120,7 @@ a {
 	font-size: 35px;
 }
 .fa-ellipsis-h {
-	mix-blend-mode: difference;
-	color: #b9adb7;
+	color: #67828f;
 	z-index: 9;
 	position: fixed;
 	display: none;
