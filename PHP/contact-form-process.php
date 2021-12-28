@@ -78,87 +78,19 @@ if (isset($_POST['Email'])) {
 <link href="../CSS/my-style.css" rel="stylesheet" type="text/css">
 <link href="../CSS/end class.css" rel="stylesheet" type="text/css">
 <script src="../Java-Script/style.js"></script>
-<script src="../Java-Script/my-style.js"></script>
 </head>
 <body>
 
-<div id="menu-scroll">
-			<a href="../index.html" ><img src="../logo/logo.svg"
-		 alt ="Logo"
-		 height="45px"
-		 style="" class="logomenu"></a>
-		<div class="scroll">
-		<nav>
-		<a href="../html/Products.html" class="menutext productsmenu"><d>Produkter</d></a>
-		<a href="../html/Graphic-menu.html" class="menutext"><d>Grafisk Design</d></a>
-		<a href="../html/Photo.html" class="menutext"><d>Foto</d></a>
-		<a href="../html/contact.html" style="float: right;" class="menutext"><d>Kontakt Meg</d></a>
-		</nav>
-	</div>
-</div>
-<div id="hide"></div>
-
-<div id="menu-2-con">
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		<a href="../index.html" class="menutext-phone"><d>Hjem</d></a>
-		<br>
-		<a href="../html/Products.html" class="menutext-phone"><d>Produkter</d></a>
-		<br>
-		<a href="../html/Graphic-menu.html" class="menutext-phone"><d>Grafisk Design</d></a>
-		<br>
-		<a href="../html/Photo.html" class="menutext-phone"><d>Foto</d></a>
-		<br>
-		<a href="../html/contact.html" class="menutext-phone"><d>Kontakt Meg</d></a>
-</div>
-<span class="fas fa-ellipsis-h" onclick="openNav()"></span>
-</div>
-		
-	
+<span id="menu-preset"></span>
 			
-	<div id="contact-form-thanks" style="background-color: #F4F4F4; color: black; padding: 300px 0px;">
+<div id="contact-form-thanks" style="background-color: #F4F4F4; color: black; padding: 300px 0px;">
  <p style="text-align: center;">Thank you for contacting us. We will be in touch with you very soon.</p>
 </div>
 	
-<footer>
-	<div class="end">
-		<div class="end-text">
-			<div class="end-text-left">
-			<d style="opacity: 0.7;">Phone:</d>
-			<br>
-			<d style="opacity: 0.7;">Mail:</d>
-			<br>
-			<d style="opacity: 0.7;">Photo:</d>
-			<br>
-			</div>
-			<div class="end-text-right">
-			<d style="opacity: 0.7;"> +47 451 53 051</d>
-			<br>
-                <div class="end-text-link">
-                    <d><a href="mailto:eliasheggernes@gmail.com"
-                          style="color: #EDEFFB; text-decoration: none; opacity: 0.7;">
+<span id="end-preset"></span>
 
-
-                        eliasheggernes@gmail.com</a></d>
-                </div>
-                <br>
-
-			<div class="end-text-link"><d><a href="https://www.instagram.com/anna.monstad/"	   
-style="color: #EDEFFB; text-decoration: none; opacity: 0.7;" target="_blank">
-Anna Silgjerd Monstad,</a></d></div>
-			<div class="end-text-link"><d><a href="https://www.instagram.com/eliasheggernes/"	   
-style="color: #EDEFFB; text-decoration: none; opacity: 0.7;" target="_blank">
-Elias Fjøren Heggernes</a></d></div>
-			<br>
-			</div>
-			
-		</div>
-			<img src="../Pictures-all/copyright 1.png"
-			 alt="Copyright"
-			 height="30px;"
-			 style="float: right;">
-	</div>
-</footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="/Java-Script/my-style.js"></script>
 </body>
 
 

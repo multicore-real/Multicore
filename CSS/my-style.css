@@ -1,21 +1,33 @@
 @charset "UTF-8";
 /* CSS Document */
+:root {
+	--text-color-white: #EDEFFB;
+
+	--text-color-black: #353536;
+
+	--background-color: #2E3B56;
+
+	--dark-color: #1B2636;
+
+	--white-color: #e5eefd;
+}
+
 body{
 	padding: 0;
-	background-color: #e5eefd;
+	background-color: var(--white-color);
 	margin: 0;
 }
 
 #hide {
 	display: block;
 	position: relative;;
-	padding-bottom: 78px !important;
-	background-color: #1B2636;
+	padding-bottom: 82px !important;
+	background-color: var(--dark-color);
 }
 
 .normal-text {
 	background-color:#282828;
-	color: #EDEFFB;
+	color: var(--text-color-white);
 	line-height: 22px;
 	letter-spacing: 1px;
 	padding: 200px 0;
@@ -35,40 +47,12 @@ body{
 
 #contact-form-thanks {
 	position: relative;
-	color: #EDEFFB;
+	color: var(--text-color-white);
 	font-family: helvetica, serif;
 }
 
 a {
 	text-decoration: none;
-}
-
-#menu img:hover{
-	transform: scale(1.05);
-}
-#menu a:hover {
-	transform: scale(1.05);
-	text-decoration: underline;
-}
-
-#menu:visited {
-	color: #EDEFFB;
-	text-decoration: none;
-}
-
-#menu {
-	padding-bottom: 78px;
-	transition: 0.3s;
-	z-index: 15;
-	position: inherit;
-	display: block;
-	overflow: auto;
-	white-space: nowrap;
-	font-size: 18px;
-	background-color: #1B2636;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	width: 100%;
 }
 
 #menu-scroll img:hover{
@@ -80,7 +64,7 @@ a {
 }
 
 #menu-scroll:visited {
-	color: #EDEFFB;
+	color: var(--text-color-white);
 	text-decoration: none;
 }
 
@@ -93,7 +77,7 @@ a {
 	overflow: auto;
 	white-space: nowrap;
 	font-size: 18px;
-	background-color: #1B2636;
+	background-color: var(--dark-color);
 	padding-top: 20px;
 	padding-bottom: 20px;
 	width: 100%;
@@ -101,7 +85,7 @@ a {
 .menutext {	
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	letter-spacing: 0;
-	color: #EDEFFB;
+	color: var(--text-color-white);
 	display:inline-block;
 	padding: 10px 25px;
 }

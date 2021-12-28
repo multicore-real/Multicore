@@ -10,7 +10,6 @@
     <link href="../CSS/end class.css" rel="stylesheet" type="text/css">
     <link href="../CSS/Graphic.css" rel="stylesheet" type="text/css">
     <script src="../Java-Script/style.js"></script>
-    <script src="../Java-Script/my-style.js"></script>
     <!-- Core CSS file -->
     <link rel="stylesheet" href="../PhotoSwipe-master/dist/photoswipe.css">
 
@@ -29,54 +28,7 @@
 </head>
 <body>
 
-<div id="menu-scroll">
-    <a href="../index.html"><img src="../logo/logo.svg"
-                                 alt="Logo"
-                                 height="45px"
-                                 style="" class="logomenu"></a>
-    <div class="scroll">
-        <nav>
-            <a href="Products.html" class="menutext productsmenu">
-                <d>Produkter</d>
-            </a>
-            <a href="Graphic-menu.html" class="menutext">
-                <d>Grafisk Design</d>
-            </a>
-            <a href="Photo.html" class="menutext">
-                <d>Foto</d>
-            </a>
-            <a href="contact.html" style="float: right;" class="menutext">
-                <d>Kontakt Meg</d>
-            </a>
-        </nav>
-    </div>
-</div>
-<div id="hide"></div>
-<div id="menu-2-con">
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="../index.html" class="menutext-phone">
-            <d>Hjem</d>
-        </a>
-        <br>
-        <a href="Products.html" class="menutext-phone">
-            <d>Produkter</d>
-        </a>
-        <br>
-        <a href="Graphic-menu.html" class="menutext-phone">
-            <d>Grafisk Design</d>
-        </a>
-        <br>
-        <a href="Photo.html" class="menutext-phone">
-            <d>Foto</d>
-        </a>
-        <br>
-        <a href="contact.html" class="menutext-phone">
-            <d>Kontakt Meg</d>
-        </a>
-    </div>
-    <span class="fas fa-ellipsis-h" onclick="openNav()"></span>
-</div>
+<span id="menu-preset"></span>
 
 <!-- Root element of PhotoSwipe. Must have class pswp. -->
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
@@ -144,17 +96,11 @@
     </div>
 
 </div>
-<div id="graphic-con" style="margin-bottom: -1.2vw;" class="my-gallery" itemscope itemtype="https://schema.org/ImageGallery">
+<div id="graphic-con" style="" class="my-gallery" itemscope itemtype="https://schema.org/ImageGallery">
 
     <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
         <a href="../Graphic-pictures/Pepsi@4x.jpg" itemprop="contentUrl" data-size="1358x1920">
             <img src="../Graphic-pictures/Pepsi@4x.jpg" alt="Picture" class="graphic-row">
-        </a>
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Graphic-pictures/light saber.jpg" itemprop="contentUrl" data-size="1920x1080">
-            <img src="../Graphic-pictures/light saber.jpg" alt="Picture" class="graphic-row">
         </a>
     </figure>
 
@@ -171,8 +117,8 @@
     </figure>
 
     <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Graphic-pictures/The graphic designer.jpg" itemprop="contentUrl" data-size="1440x1920">
-            <img src="../Graphic-pictures/The graphic designer.jpg" alt="Picture" class="graphic-row">
+        <a href="../Graphic-pictures/Home_Island.jpg" itemprop="contentUrl" data-size="1920x1920">
+            <img src="../Graphic-pictures/Home_Island.jpg" alt="Picture" class="graphic-row">
         </a>
     </figure>
 
@@ -183,14 +129,14 @@
     </figure>
 
     <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Graphic-pictures/glowing stag.jpg" itemprop="contentUrl" data-size="1920x1080">
-            <img src="../Graphic-pictures/glowing stag.jpg" alt="Picture" class="graphic-row">
+        <a href="../Graphic-pictures/cavetown.jpg" itemprop="contentUrl" data-size="1385x1920">
+            <img src="../Graphic-pictures/cavetown.jpg" alt="Picture" class="graphic-row">
         </a>
     </figure>
 
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Graphic-pictures/cavetown.jpg" itemprop="contentUrl" data-size="1385x1920">
-            <img src="../Graphic-pictures/cavetown.jpg" alt="Picture" class="graphic-row">
+    <figure itemprop="associatedMedia" class="graphic-hide" itemscope itemtype="https://schema.org/ImageObject">
+        <a href="../Graphic-pictures/dry brush canvas.jpg" itemprop="contentUrl" data-size="1920x1080">
+            <img src="../Graphic-pictures/dry brush canvas.jpg" alt="Picture" class="graphic-row">
         </a>
     </figure>
 
@@ -200,27 +146,7 @@
         </a>
     </figure>
 
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Graphic-pictures/dry brush canvas.jpg" itemprop="contentUrl" data-size="1920x1080">
-            <img src="../Graphic-pictures/dry brush canvas.jpg" alt="Picture" class="graphic-row">
-        </a>
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Graphic-pictures/Home_Island.jpg" itemprop="contentUrl" data-size="1920x1920">
-            <img src="../Graphic-pictures/Home_Island.jpg" alt="Picture" class="graphic-row">
-        </a>
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Graphic-pictures/Ipod@1920x-100.jpg" itemprop="contentUrl" data-size="1385x1920">
-            <img src="../Graphic-pictures/Ipod@1920x-100.jpg" alt="Picture" class="graphic-row">
-        </a>
-    </figure>
-
 </div>
-<img src="../Photo/IMG_0958.jpg" style="padding-left: 90vw; opacity: 0; height: 10px;" alt="not show poicture">
-
 <script>
     var initPhotoSwipeFromDOM = function (gallerySelector) {
 
@@ -427,49 +353,9 @@
     initPhotoSwipeFromDOM('.my-gallery');
 </script>
 
+<span id="end-preset"></span>
 
-<footer>
-    <div class="end">
-        <div class="end-text">
-            <div class="end-text-left">
-                <d style="opacity: 0.7;">Phone:</d>
-                <br>
-                <d style="opacity: 0.7;">Mail:</d>
-                <br>
-                <d style="opacity: 0.7;">Photo:</d>
-                <br>
-            </div>
-            <div class="end-text-right">
-                <d style="opacity: 0.7;"> +47 451 53 051</d>
-                <br>
-                <div class="end-text-link">
-                    <d><a href="mailto:eliasheggernes@gmail.com"
-                          style="color: #EDEFFB; text-decoration: none; opacity: 0.7;">
-
-
-                        eliasheggernes@gmail.com</a></d>
-                </div>
-                <br>
-
-                <div class="end-text-link">
-                    <d><a href="https://www.instagram.com/anna.monstad/"
-                          style="color: #EDEFFB; text-decoration: none; opacity: 0.7;" target="_blank">
-                        Anna Silgjerd Monstad,</a></d>
-                </div>
-                <div class="end-text-link">
-                    <d><a href="https://www.instagram.com/eliasheggernes/"
-                          style="color: #EDEFFB; text-decoration: none; opacity: 0.7;" target="_blank">
-                        Elias Fjøren Heggernes</a></d>
-                </div>
-                <br>
-            </div>
-
-        </div>
-        <img src="../Pictures-all/copyright 1.png"
-             alt="Copyright"
-             height="30px;"
-             style="float: right;">
-    </div>
-</footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="/Java-Script/my-style.js"></script>
 </body>
 </html>

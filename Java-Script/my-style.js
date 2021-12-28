@@ -1,3 +1,5 @@
+$("#menu-preset").load("/presets/menu.html");
+$("#end-preset").load("/presets/end.html");
 
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {

@@ -9,8 +9,6 @@
     <link href="../CSS/my-style.css" rel="stylesheet" type="text/css">
     <link href="../CSS/Photo.css" rel="stylesheet" type="text/css">
     <link href="../CSS/end class.css" rel="stylesheet" type="text/css">
-    <script src="../Java-Script/style.js"></script>
-    <script src="../Java-Script/my-style.js"></script>
     <!-- Core CSS file -->
     <link rel="stylesheet" href="../PhotoSwipe-master/dist/photoswipe.css">
 
@@ -26,72 +24,23 @@
     <!-- UI JS file -->
     <script src="../PhotoSwipe-master/dist/photoswipe-ui-default.min.js"></script>
 
+    <script src="../Java-Script/style.js"></script>
 </head>
 <body>
 
-<div id="menu-scroll">
-    <a href="../index.html"><img src="../logo/logo.svg"
-                                 alt="Logo"
-                                 height="45px"
-                                 style="" class="logomenu"></a>
-    <div class="scroll">
-        <nav>
-            <a href="Products.html" class="menutext productsmenu">
-                <d>Produkter</d>
-            </a>
-            <a href="Graphic-menu.html" class="menutext">
-                <d>Grafisk Design</d>
-            </a>
-            <a href="Photo.html" class="menutext">
-                <d>Foto</d>
-            </a>
-            <a href="contact.html" style="float: right;" class="menutext">
-                <d>Kontakt Meg</d>
-            </a>
-        </nav>
-    </div>
-</div>
-<div id="hide"></div>
-
-<div id="menu-2-con">
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="../index.html" class="menutext-phone">
-            <d>Hjem</d>
-        </a>
-        <br>
-        <a href="Products.html" class="menutext-phone">
-            <d>Produkter</d>
-        </a>
-        <br>
-        <a href="Graphic-menu.html" class="menutext-phone">
-            <d>Grafisk Design</d>
-        </a>
-        <br>
-        <a href="Photo.html" class="menutext-phone">
-            <d>Foto</d>
-        </a>
-        <br>
-        <a href="contact.html" class="menutext-phone">
-            <d>Kontakt Meg</d>
-        </a>
-    </div>
-    <span class="fas fa-ellipsis-h" onclick="openNav()"></span>
-</div>
-
-
+<span id="menu-preset"></span>
 
 <!-- Root element of PhotoSwipe. Must have class pswp. -->
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
-    <!-- Background of PhotoSwipe. 
+    <!-- Background of PhotoSwipe.
          It's a separate element as animating opacity is faster than rgba(). -->
     <div class="pswp__bg"></div>
 
     <!-- Slides wrapper with overflow:hidden. -->
     <div class="pswp__scroll-wrap">
 
-        <!-- Container that holds slides. 
+        <!-- Container that holds slides.
             PhotoSwipe keeps only 3 of them in the DOM to save memory.
             Don't modify these 3 pswp__item elements, data is added later on. -->
         <div class="pswp__container">
@@ -147,13 +96,8 @@
     </div>
 
 </div>
-<div id="picture-con" class="my-gallery" style="margin-bottom: -1.2vw;" itemscope itemtype="https://schema.org/ImageGallery">
 
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Photo/IMG_2103.jpg" itemprop="contentUrl" data-size="1280x1920">
-            <img src="../Photo/IMG_2103.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>
+<div id="picture-con" class="my-gallery" style="" itemscope itemtype="https://schema.org/ImageGallery">
 
     <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
         <a href="../Photo/IMG_3571.jpg" itemprop="contentUrl" data-size="1920x1280">
@@ -161,7 +105,13 @@
         </a>
     </figure>
 
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+    <figure itemprop="associatedMedia" class="phone-hide" itemscope itemtype="https://schema.org/ImageObject">
+        <a href="../Photo/IMG_4569.jpg" itemprop="contentUrl" data-size="1280x1920">
+            <img src="../Photo/IMG_4569.jpg" alt="Picture" class="pictures-row">
+        </a>
+    </figure>
+
+    <figure itemprop="associatedMedia" class="phone-hide" itemscope itemtype="https://schema.org/ImageObject">
         <a href="../Photo/IMG_4684.jpg" itemprop="contentUrl" data-size="1280x1920">
             <img src="../Photo/IMG_4684.jpg" alt="Picture" class="pictures-row">
         </a>
@@ -174,126 +124,30 @@
     </figure>
 
     <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Photo/IMG_1069.jpg" itemprop="contentUrl" data-size="1280x1920">
-            <img src="../Photo/IMG_1069.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Photo/IMG_3733.jpg" itemprop="contentUrl" data-size="1280x1920">
-            <img src="../Photo/IMG_3733.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Photo/IMG_0958.jpg" itemprop="contentUrl" data-size="1280x1920">
-            <img src="../Photo/IMG_0958.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Photo/IMG_3034.jpg" itemprop="contentUrl" data-size="1280x1920">
-            <img src="../Photo/IMG_3034.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Photo/IMG_3840.jpg" itemprop="contentUrl" data-size="1920x1280">
-            <img src="../Photo/IMG_3840.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Photo/IMG_3579.jpg" itemprop="contentUrl" data-size="1280x1920">
-            <img src="../Photo/IMG_3579.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Photo/IMG_4745.jpg" itemprop="contentUrl" data-size="1920x1280">
-            <img src="../Photo/IMG_4745.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Photo/IMG_2116.jpg" itemprop="contentUrl" data-size="1280x1920">
-            <img src="../Photo/IMG_2116.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Photo/IMG_0732.jpg" itemprop="contentUrl" data-size="1280x1920">
-            <img src="../Photo/IMG_0732.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Photo/IMG_0944.jpg" itemprop="contentUrl" data-size="1280x1920">
-            <img src="../Photo/IMG_0944.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Photo/IMG_4068.jpg" itemprop="contentUrl" data-size="1920x1280">
-            <img src="../Photo/IMG_4068.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Photo/IMG_3994.jpg" itemprop="contentUrl" data-size="1920x1280">
-            <img src="../Photo/IMG_3994.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Photo/IMG_4022.jpg" itemprop="contentUrl" data-size="1280x1920">
-            <img src="../Photo/IMG_4022.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Photo/IMG_3823.jpg" itemprop="contentUrl" data-size="1280x1920">
-            <img src="../Photo/IMG_3823.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Photo/IMG_3905.jpg" itemprop="contentUrl" data-size="1280x1920">
-            <img src="../Photo/IMG_3905.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
         <a href="../Photo/IMG_4371.jpg" itemprop="contentUrl" data-size="1920x1280">
             <img src="../Photo/IMG_4371.jpg" alt="Picture" class="pictures-row">
         </a>
     </figure>
 
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+    <figure itemprop="associatedMedia" class="phone-hide" itemscope itemtype="https://schema.org/ImageObject">
         <a href="../Photo/IMG_4333-2.jpg" itemprop="contentUrl" data-size="1280x1920">
             <img src="../Photo/IMG_4333-2.jpg" alt="Picture" class="pictures-row">
         </a>
     </figure>
+
     <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Photo/IMG_3806.jpg" itemprop="contentUrl" data-size="1920x1280">
-            <img src="../Photo/IMG_3806.jpg" alt="Picture" class="pictures-row">
+        <a href="../Photo/IMG_4282.jpg" itemprop="contentUrl" data-size="1920x1280">
+            <img src="../Photo/IMG_4282.jpg" alt="Picture" class="pictures-row">
         </a>
     </figure>
 
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Photo/IMG_1486.jpg" itemprop="contentUrl" data-size="1280x1920">
-            <img src="../Photo/IMG_1486.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Photo/IMG_4569.jpg" itemprop="contentUrl" data-size="1280x1920">
-            <img src="../Photo/IMG_4569.jpg" alt="Picture" class="pictures-row">
+    <figure itemprop="associatedMedia" class="phone-hide" itemscope itemtype="https://schema.org/ImageObject">
+        <a href="../Photo/IMG_0944.jpg" itemprop="contentUrl" data-size="1280x1920">
+            <img src="../Photo/IMG_0944.jpg" alt="Picture" class="pictures-row">
         </a>
     </figure>
 
 </div>
-<img src="../Photo/IMG_0958.jpg" style="padding-left: 90vw; opacity: 0; height: 10px;" alt="not show poicture">
 <script>
     var initPhotoSwipeFromDOM = function (gallerySelector) {
 
@@ -500,48 +354,9 @@
     initPhotoSwipeFromDOM('.my-gallery');
 </script>
 
-<footer>
-    <div class="end">
-        <div class="end-text">
-            <div class="end-text-left">
-                <d style="opacity: 0.7;">Phone:</d>
-                <br>
-                <d style="opacity: 0.7;">Mail:</d>
-                <br>
-                <d style="opacity: 0.7;">Photo:</d>
-                <br>
-            </div>
-            <div class="end-text-right">
-                <d style="opacity: 0.7;"> +47 451 53 051</d>
-                <br>
-                <div class="end-text-link">
-                    <d><a href="mailto:eliasheggernes@gmail.com"
-                          style="color: #EDEFFB; text-decoration: none; opacity: 0.7;">
+<span id="end-preset"></span>
 
-
-                        eliasheggernes@gmail.com</a></d>
-                </div>
-                <br>
-
-                <div class="end-text-link">
-                    <d><a href="https://www.instagram.com/anna.monstad/"
-                          style="color: #EDEFFB; text-decoration: none; opacity: 0.7;" target="_blank">
-                        Anna Silgjerd Monstad,</a></d>
-                </div>
-                <div class="end-text-link">
-                    <d><a href="https://www.instagram.com/eliasheggernes/"
-                          style="color: #EDEFFB; text-decoration: none; opacity: 0.7;" target="_blank">
-                        Elias Fjøren Heggernes</a></d>
-                </div>
-                <br>
-            </div>
-
-        </div>
-        <img src="../Pictures-all/copyright 1.png"
-             alt="Copyright"
-             height="30px;"
-             style="float: right;">
-    </div>
-</footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="../Java-Script/my-style.js"></script>
 </body>
 </html>
