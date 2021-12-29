@@ -68,11 +68,10 @@ if (isset($_POST['Email'])) {
 ?>
 
     <!-- include your success message below -->
-<html lang="NOR">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Takk for at du kontakter oss</title>
+<title>Takk for at du kontaktet oss</title>
 <script src="https://kit.fontawesome.com/911551dd30.js" crossorigin="anonymous"></script>
 <link rel="shortcut icon" type="image/x-icon" href="../logo/favicon.ico">
 <link href="../CSS/my-style.css" rel="stylesheet" type="text/css">
