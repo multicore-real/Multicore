@@ -25,17 +25,84 @@ body{
 	background-color: var(--dark-color);
 }
 
+.card-img {
+	float: left;
+	display: inline;
+	border-radius: 3px;
+	margin-top: 15px;
+	margin-left: 15px;
+	max-height: 200px;
+}
+
+.card-header {
+	color: #eceff1;
+	font-max-size: 22px;
+	font-weight: 400;
+	display: block;
+	float: left;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+.card-text {
+	color: #e7e7e7;
+	font-max-size: 18px;
+	margin-top: 0;
+	font-weight: 300;
+	margin-left: 30px;
+	display: block;
+	float: left;
+}
+
+#elais-card {
+	font-family: helvetica, serif;
+	border-radius: 3px;
+	max-width: 500px;
+	height: 230px;
+	background-color: var(--background-color);
+	margin: auto auto 50px auto;
+}
+
+
+@media only screen and (max-width : 500px){
+	.card-img {
+		max-height: 300px;
+		margin-left: auto;
+		margin-top: 25px;
+		float: none;
+	}
+	#elais-card {
+		text-align: center;
+		height: 500px;
+		max-width: 300px;
+	}
+
+	.card-text {
+		padding-top: 15px;
+		margin: auto;
+		float: none;
+	}
+
+	.card-header {
+		margin: auto;
+		padding-top: 25px;
+		float: none;
+	}
+}
 .normal-text {
-	background-color:#282828;
-	color: var(--text-color-white);
-	line-height: 22px;
-	letter-spacing: 1px;
-	padding: 200px 0;
+	color: var(--text-color-black);
+	font-weight: 300;
+	line-height: 23px;
+	letter-spacing: 2px;
+	font-size: 20px;
 	position: relative;
 	font-family: helvetica, serif;
 }
-.normal-text p {
-	margin-left: 100px;
+
+.normal-header {
+	font-family: helvetica, serif;
+	color: var(--text-color-black);
+	text-align: center;
 }
 
 @media only screen and (max-width : 700px){
@@ -96,7 +163,7 @@ a {
 .productsmenu {
 	margin-left: 75px;
 }
-@media only screen and (max-width : 624px){
+@media only screen and (max-width : 805px){
 	#menu {
 		display: none !important;
 	}

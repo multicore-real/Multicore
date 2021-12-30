@@ -18,7 +18,7 @@ figure {
 	text-align: center;
 	background-color: #2E3B56;
 }
-@media only screen and (max-width : 1000px){
+@media only screen and (max-width : 1000px) and (min-width: 500px){
 	#graphic-con{
 		padding-left: 13vw;
 		padding-right: 13vw;
@@ -29,12 +29,11 @@ figure {
 }
 @media only screen and (max-width : 500px){
 	#graphic-con{
-		padding-left: 5vw;
-		padding-right: 5vw;
+		padding-left: 0;
+		padding-right: 0;
 	}
 	.graphic-row {
-
-		max-height: 40vw;
+		max-height: 55vw;
 	}
 	.graphic-hide {
 		display: none;

@@ -20,7 +20,7 @@ figure {
 	text-align: center;
 	background-color: #2E3B56;
 }
-@media only screen and (max-width : 1000px){
+@media only screen and (max-width : 1000px) and (min-width: 500px){
 	#picture-con{
 		padding-left: 15vw;
 		padding-right: 15vw;
