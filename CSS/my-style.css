@@ -26,6 +26,7 @@ body{
 }
 
 .card-con {
+	z-index: 2;
 	background-color: var(--dark-color);
 	padding: 50px 0;
 }

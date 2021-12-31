@@ -17,4 +17,9 @@ window.onscroll = function() {
         }
     }
     prevScrollpos = currentScrollPos;
+    if (currentScrollPos > 500) {
+        document.getElementById("Multicore-txt").style.display = "none";
+    } else {
+          document.getElementById("Multicore-txt").style.display = "inline";
+    }
 };
