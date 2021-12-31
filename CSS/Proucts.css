@@ -1,0 +1,90 @@
+#product-con{
+    text-align: center;
+    border-radius: 2px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: var(--white-color);
+}
+
+.card{
+    display: inline-block;
+    border-radius: 3px;
+    background-color: #e3ebfc;
+    border-style: solid;
+    border-color: #b6bbca;
+    margin: auto;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+}
+
+#product-img-PC-Stand{
+    margin-top: 14px;
+    margin-bottom: 14px;
+    width: 290px;
+}
+
+#product-img-Tape-Holder{
+    height: 200px;
+}
+
+.product-card-text-color{
+    display: inline-block;
+    width: 300px;
+    background-color: #d5deeb;
+    height: 193px;
+    border-radius: 0 0 3px;
+    border-top-style: solid;
+    border-top-color: #b6bbca;
+}
+
+.product-card-text{
+    font-size: 17px;
+    font-family: helvetica, serif;
+    color: var(--text-color-black);
+}
+
+.product-card-btn{
+    border-radius: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: auto;
+    background-color: var(--dark-color);
+    max-width: 70%;
+    border-color: var(--dark-color);
+    border-style: solid;
+    border-width: 5px;
+    font-size: 19px;
+    font-family: helvetica, serif;
+    color: #b8c0cc;
+}
+
+.product-card-btn:hover{
+    border-color: #334765;
+}
+
+.product-card-header{
+    font-size: 23px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.product-card-text span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.space{
+    margin-right: 15vw;
+    display: inline;
+}
+
+@media only screen and (max-width : 800px){
+    .space{
+        break-inside: initial;
+    }
+    .card{
+        margin-bottom: 100px;
+        display: block;
+    }
+}

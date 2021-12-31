@@ -1,5 +1,5 @@
 
-#multicore-info{
+.multicore-info{
     padding-top: 40px;
     padding-bottom: 40px;
     max-width: 55vw;
@@ -15,7 +15,7 @@
     #logo {
         float: none;
     }
-    #multicore-info {
+    .multicore-info {
         max-width: 70vw;
         text-align: center;
     }

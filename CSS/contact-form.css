@@ -5,7 +5,7 @@
     background-color: #2E3B56;
 }
 .contact {
-	font-family: helvetica;
+    font-family: helvetica, serif;
 	text-align: center;
 	margin: auto;
 	max-width: 500px;
@@ -28,7 +28,7 @@
 }
 
 .fcf-form-group {
-    color: #EDEFFB;
+    color: var(--text-color-white);
     margin-bottom: 1rem;
 }
 
@@ -131,19 +131,19 @@ label.fcf-label {
 }
 
 .fcf-btn-primary {
-    color: #EDEFFB;
+    color: var(--text-color-white);
     background-color: #007bff;
     border-color: #007bff;
 }
 
 .fcf-btn-primary:hover {
-    color: #EDEFFB;
+    color: var(--text-color-white);
     background-color: #0069d9;
     border-color: #0062cc;
 }
 
 .fcf-btn-primary:focus, .fcf-btn-primary.focus {
-    color: #EDEFFB;
+    color: var(--text-color-white);
     background-color: #0069d9;
     border-color: #0062cc;
     box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);

@@ -25,6 +25,11 @@ body{
 	background-color: var(--dark-color);
 }
 
+.card-con {
+	background-color: var(--dark-color);
+	padding: 50px 0;
+}
+
 .card-img {
 	float: left;
 	display: inline;
@@ -54,13 +59,13 @@ body{
 	float: left;
 }
 
-#elais-card {
+#elias-card {
 	font-family: helvetica, serif;
 	border-radius: 3px;
 	max-width: 500px;
 	height: 230px;
 	background-color: var(--background-color);
-	margin: auto auto 50px auto;
+	margin: auto;
 }
 
 
@@ -71,7 +76,7 @@ body{
 		margin-top: 25px;
 		float: none;
 	}
-	#elais-card {
+	#elias-card {
 		text-align: center;
 		height: 500px;
 		max-width: 300px;
@@ -97,6 +102,12 @@ body{
 	font-size: 20px;
 	position: relative;
 	font-family: helvetica, serif;
+}
+
+.normal-text a {
+	color: var(--text-color-black);
+	text-decoration: underline;
+	text-decoration-color: rgba(0, 16, 16, 0.4);
 }
 
 .normal-header {
