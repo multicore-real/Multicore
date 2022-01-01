@@ -83,7 +83,7 @@ if (isset($_POST['Email'])) {
 <span id="menu-preset"></span>
 			
 <div id="contact-form-thanks" style="background-color: #2E3B56; color: black; padding: 300px 0px;">
- <p style="text-align: center;">Thank you for contacting us. We will be in touch with you very soon.</p>
+ <p style="text-align: center;">Error. Send mail til eliasheggernes@gmail.com</p>
 </div>
 	
 <span id="end-preset"></span>
