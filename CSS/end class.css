@@ -13,13 +13,14 @@ footer a:hover {
 
 .end-text-left {
 	line-height: 25px;
-	margin-left: 8vw;
+	margin-left: 7vw;
 	padding: 0;
 	display: inline-block;
 }
 .end-text-right {
 	line-height: 25px;
-	margin-left: 7vw;
+	margin-left: 3vw;
+	font-size-adjust: initial;
 	padding: 0;
 	display: inline-block;
 }
@@ -30,14 +31,13 @@ footer a:hover {
 }
 
 .end {
-	font-size: 13px;
 	color: #EDEFFB;
 	padding: 50px 0;
 	background-color:#313131;
 }
 footer li{
 	font-family: Franklin Gothic, serif;
-	margin-left: 80px
+	margin-left: 4vw
 }
 .con {
 	transition: 200ms ease-in;
