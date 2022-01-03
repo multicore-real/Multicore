@@ -96,6 +96,7 @@ body{
 	}
 }
 .normal-text {
+	margin: auto;
 	color: var(--text-color-black);
 	font-weight: 300;
 	line-height: 23px;
@@ -112,6 +113,7 @@ body{
 }
 
 .normal-header {
+	margin: auto;
 	font-family: helvetica, serif;
 	color: var(--text-color-black);
 	text-align: center;
@@ -153,7 +155,7 @@ a {
 	z-index: 15;
 	position: fixed;
 	display: block;
-	overflow: auto;
+	overflow: hidden;
 	white-space: nowrap;
 	font-size: 18px;
 	background-color: var(--dark-color);
@@ -199,8 +201,9 @@ a {
 	font-size: 35px;
 }
 .fa-ellipsis-h {
-	color: #67828f;
+	color: #718e9b;
 	z-index: 9;
+	mix-blend-mode: difference;
 	position: fixed;
 	display: none;
 	margin-left: 15px;
