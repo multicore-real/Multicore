@@ -77,6 +77,15 @@ if (isset($_POST['Email'])) {
 <link href="../CSS/my-style.css" rel="stylesheet" type="text/css">
 <link href="../CSS/end class.css" rel="stylesheet" type="text/css">
 <script src="../Java-Script/style.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EY4JVNRYW5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EY4JVNRYW5');
+</script>
 </head>
 <body>
 
