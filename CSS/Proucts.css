@@ -1,15 +1,22 @@
-#product-con{
-    text-align: center;
-    border-radius: 2px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background: var(--white-color);
+#product-card-header-text {
+    font-family: helvetica, serif;
+    color: var(--text-color-black);
 }
 
-.card{
+#product-con {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    text-align: center;
+    border-radius: 2px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-color: var(--white-color);
+}
+
+.card {
     display: inline-block;
     border-radius: 3px;
-    background-color: #e3ebfc;
+    background-color: #dde5f5;
     border-style: solid;
     border-color: #b6bbca;
     margin: auto;
@@ -18,33 +25,37 @@
     text-align: center;
 }
 
-#product-img-PC-Stand{
+#product-img-PC-Stand {
     margin-top: 14px;
     margin-bottom: 14px;
     width: 290px;
 }
 
-#product-img-Tape-Holder{
+#product-img-Tape-Holder {
     height: 200px;
 }
 
-.product-card-text-color{
+#product-img-boss-klemme {
+    height: 200px;
+}
+
+.product-card-text-color {
     display: inline-block;
     width: 300px;
-    background-color: #d5deeb;
+    background-color: #d1dae7;
     height: 193px;
     border-radius: 0 0 3px;
     border-top-style: solid;
     border-top-color: #b6bbca;
 }
 
-.product-card-text{
+.product-card-text {
     font-size: 17px;
     font-family: helvetica, serif;
     color: var(--text-color-black);
 }
 
-.product-card-btn{
+.product-card-btn {
     border-radius: 30px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -59,11 +70,11 @@
     color: #b8c0cc;
 }
 
-.product-card-btn:hover{
+.product-card-btn:hover {
     border-color: #334765;
 }
 
-.product-card-header{
+.product-card-header {
     font-size: 23px;
     padding-top: 5px;
     padding-bottom: 10px;
@@ -74,17 +85,47 @@
     vertical-align: middle;
 }
 
-.space{
+.space {
     margin-right: 15vw;
     display: inline;
 }
 
-@media only screen and (max-width : 800px){
-    .space{
+.space-end {
+    margin-right: 15vw;
+    display: inline;
+}
+
+.space-up {
+    padding-top: 100px;
+}
+
+@media only screen and (max-width: 800px) {
+    .space {
         break-inside: initial;
     }
-    .card{
+
+    .space-up {
+        display: inline;
+    }
+
+    .card {
         margin-bottom: 100px;
         display: block;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .card-drop {
+        margin-top: 100px;
+        display: block;
+    }
+
+    .space-up {
+        break-inside: initial;
+        display: inherit;
+    }
+
+    .space-end {
+        display: inherit;
     }
 }

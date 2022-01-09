@@ -1,13 +1,17 @@
 
-.normal-header{
+.normal-header {
     margin: 20px 0;
 }
 
-.multicore-info{
+.multicore-info {
     padding-top: 40px;
     padding-bottom: 40px;
     max-width: 55vw;
     margin: auto;
+}
+.normal-text {
+    line-height: 28px;
+    font-size: 24px;
 }
 
 #logo {
@@ -15,10 +19,11 @@
     max-height: 200px;
 }
 
-@media only screen and (max-width : 700px){
+@media only screen and (max-width: 700px) {
     #logo {
         float: none;
     }
+
     .multicore-info {
         max-width: 70vw;
         text-align: center;

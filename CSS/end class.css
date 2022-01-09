@@ -1,50 +1,54 @@
 @charset "utf-8";
 /* CSS Document */
 footer {
-	font-family: Franklin Gothic, serif;
-	font-size: 12px;
-	white-space: normal;
+    font-family: Franklin Gothic, serif;
+    font-size: 12px;
+    white-space: normal;
 }
 
 footer a:hover {
-	opacity: 1 !important;
-	text-decoration: underline !important;
+    opacity: 1 !important;
+    text-decoration: underline !important;
 }
 
 .end-text-left {
-	line-height: 25px;
-	margin-left: 7vw;
-	padding: 0;
-	display: inline-block;
+    line-height: 25px;
+    margin-left: 7vw;
+    padding: 0;
+    display: inline-block;
 }
+
 .end-text-right {
-	line-height: 25px;
-	margin-left: 3vw;
-	font-size-adjust: initial;
-	padding: 0;
-	display: inline-block;
+    line-height: 25px;
+    margin-left: 3vw;
+    font-size-adjust: initial;
+    padding: 0;
+    display: inline-block;
 }
 
 .end-text-link {
-	font-family: Franklin Gothic, serif;
-	display: inline;
+    font-family: Franklin Gothic, serif;
+    display: inline;
 }
 
 .end {
-	color: #EDEFFB;
-	padding: 50px 0;
-	background-color:#313131;
+    color: #EDEFFB;
+    padding: 50px 0;
+    background-color: #313131;
 }
-footer li{
-	font-family: Franklin Gothic, serif;
-	margin-left: 4vw
+
+footer li {
+    font-family: Franklin Gothic, serif;
+    margin-left: 4vw
 }
+
 .con {
-	transition: 200ms ease-in;
-	padding: 0;
+    transition: 200ms ease-in;
+    padding: 0;
 }
+
 .container {
-	position: inherit;
-	margin-top: 100px;
-	height: 1300px;
+    position: inherit;
+    margin-top: 100px;
+    height: 1300px;
 }

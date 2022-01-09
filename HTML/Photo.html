@@ -12,7 +12,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EY4JVNRYW5"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-EY4JVNRYW5');
@@ -38,6 +42,18 @@
 <body>
 
 <span id="menu-preset"></span>
+
+<div class="background-img-info-header" style="background-image: url('/Photo/IMG_4282.jpg')">
+    <div class="text-info-con">
+        <h1 class="normal-header">Foto og Film</h1>
+        <p class="normal-text">Jeg har en stor interesse for foto og film. Du kan se reklamevideoen jeg lagde av en
+            energidrikk nedenfor. Den ble lagd for et skoleprosjekt og jeg ble ikke betalt for å lage den.
+            <br>
+            Du kan også se noen bilder jeg har tatt lengre nede. Hvis du har noen spørsmål, <a href="/HTML/contact.html">kontakt</a>
+            meg for en uforpliktet samtale.
+        </p>
+    </div>
+</div>
 
 <!-- Root element of PhotoSwipe. Must have class pswp. -->
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
@@ -106,57 +122,68 @@
 
 </div>
 
-<div id="picture-con" class="my-gallery" style="" itemscope itemtype="https://schema.org/ImageGallery">
+<div id="picture-con">
+    <h1 class="normal-header" style="font-size: 40px">Referansevideo</h1>
+    <div class="video-con">
+        <video class="video" controls>
+            <source src="/Video/Battery-fresh-web.mp4">
+        </video>
+    </div>
 
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Photo/IMG_3571.jpg" itemprop="contentUrl" data-size="1920x1280">
-            <img src="../Photo/IMG_3571.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>
+    <h1 class="normal-header" style="font-size: 40px">Referansebilder</h1>
+    <div class="my-gallery" style="" itemscope itemtype="https://schema.org/ImageGallery">
 
-    <figure itemprop="associatedMedia" class="phone-hide" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Photo/IMG_4569.jpg" itemprop="contentUrl" data-size="1280x1920">
-            <img src="../Photo/IMG_4569.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>
+        <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+            <a href="../Photo/IMG_3571.jpg" itemprop="contentUrl" data-size="1920x1280">
+                <img src="../Photo/IMG_3571.jpg" alt="Picture" class="pictures-row">
+            </a>
+        </figure>
 
-    <figure itemprop="associatedMedia" class="phone-hide" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Photo/IMG_4684.jpg" itemprop="contentUrl" data-size="1280x1920">
-            <img src="../Photo/IMG_4684.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>
+        <figure itemprop="associatedMedia"  itemscope itemtype="https://schema.org/ImageObject">
+            <a href="../Photo/IMG_4569.jpg" itemprop="contentUrl" data-size="1280x1920">
+                <img src="../Photo/IMG_4569.jpg" alt="Picture" class="pictures-row">
+            </a>
+        </figure>
 
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Photo/IMG_0950.jpg" itemprop="contentUrl" data-size="1920x1280">
-            <img src="../Photo/IMG_0950.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>
+        <figure itemprop="associatedMedia"  itemscope itemtype="https://schema.org/ImageObject">
+            <a href="../Photo/IMG_4904-2.jpg" itemprop="contentUrl" data-size="1280x1920">
+                <img src="../Photo/IMG_4904-2.jpg" alt="Picture" class="pictures-row">
+            </a>
+        </figure>
 
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Photo/IMG_4371.jpg" itemprop="contentUrl" data-size="1920x1280">
-            <img src="../Photo/IMG_4371.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>
+        <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+            <a href="../Photo/IMG_0950.jpg" itemprop="contentUrl" data-size="1920x1280">
+                <img src="../Photo/IMG_0950.jpg" alt="Picture" class="pictures-row">
+            </a>
+        </figure>
 
-    <figure itemprop="associatedMedia" class="phone-hide" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Photo/IMG_4333-2.jpg" itemprop="contentUrl" data-size="1280x1920">
-            <img src="../Photo/IMG_4333-2.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>
+        <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+            <a href="../Photo/IMG_4371.jpg" itemprop="contentUrl" data-size="1920x1280">
+                <img src="../Photo/IMG_4371.jpg" alt="Picture" class="pictures-row">
+            </a>
+        </figure>
 
-    <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Photo/IMG_4282.jpg" itemprop="contentUrl" data-size="1920x1280">
-            <img src="../Photo/IMG_4282.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>
+        <figure itemprop="associatedMedia"  itemscope itemtype="https://schema.org/ImageObject">
+            <a href="../Photo/IMG_4333-2.jpg" itemprop="contentUrl" data-size="1280x1920">
+                <img src="../Photo/IMG_4333-2.jpg" alt="Picture" class="pictures-row">
+            </a>
+        </figure>
 
-    <figure itemprop="associatedMedia" class="phone-hide" itemscope itemtype="https://schema.org/ImageObject">
-        <a href="../Photo/IMG_0944.jpg" itemprop="contentUrl" data-size="1280x1920">
-            <img src="../Photo/IMG_0944.jpg" alt="Picture" class="pictures-row">
-        </a>
-    </figure>
+        <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">
+            <a href="../Photo/IMG_4282.jpg" itemprop="contentUrl" data-size="1920x1280">
+                <img src="../Photo/IMG_4282.jpg" alt="Picture" class="pictures-row">
+            </a>
+        </figure>
 
+        <figure itemprop="associatedMedia"  itemscope itemtype="https://schema.org/ImageObject">
+            <a href="../Photo/IMG_4684.jpg" itemprop="contentUrl" data-size="1280x1920">
+                <img src="../Photo/IMG_4684.jpg" alt="Picture" class="pictures-row">
+            </a>
+        </figure>
+
+    </div>
 </div>
+
 <script>
     var initPhotoSwipeFromDOM = function (gallerySelector) {
 
@@ -365,7 +392,8 @@
 
 <span id="end-preset"></span>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="../Java-Script/my-style.js"></script>
 </body>
 </html>

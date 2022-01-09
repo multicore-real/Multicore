@@ -1,14 +1,17 @@
 #fcf-form {
-    display:block;
+    display: block;
 }
+
 #contact-con {
+    height: 80vh;
     background-color: #2E3B56;
 }
+
 .contact {
     font-family: helvetica, serif;
-	text-align: center;
-	margin: auto;
-	max-width: 500px;
+    text-align: center;
+    margin: auto;
+    max-width: 500px;
 }
 
 .fcf-body {
@@ -149,7 +152,7 @@ label.fcf-label {
     box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
 
-.fcf-btn-lg, .fcf-btn-group-lg>.fcf-btn {
+.fcf-btn-lg, .fcf-btn-group-lg > .fcf-btn {
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
     line-height: 1.5;
@@ -161,7 +164,7 @@ label.fcf-label {
     width: 100%;
 }
 
-.fcf-btn-block+.fcf-btn-block {
+.fcf-btn-block + .fcf-btn-block {
     margin-top: 0.5rem;
 }
 
