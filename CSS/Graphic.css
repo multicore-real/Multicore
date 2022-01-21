@@ -6,7 +6,7 @@
 }
 
 .background-img-info-header {
-    padding-top: 300px;
+    padding-top: 50vh;
     background: url('/logo/logo.svg')  top / 45% no-repeat fixed, rgb(27, 38, 54);
 }
 
@@ -69,7 +69,7 @@ figure {
 
 @media only screen and (max-width: 800px) {
     .background-img-info-header {
-        padding-top: 70vh;
+        padding-top: 50vh;
         background: url('/Graphic-pictures/The graphic designer.jpg') center/ cover no-repeat fixed;);
     }
 }

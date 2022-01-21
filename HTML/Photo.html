@@ -10,7 +10,8 @@
     <link href="../CSS/Photo.css" rel="stylesheet" type="text/css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EY4JVNRYW5"></script>
-    <script src="/Java-Script/style.js">
+    <script src="/Java-Script/style.js"></script>
+    <script>
         window.dataLayer = window.dataLayer || [];
 
         function gtag() {
@@ -46,11 +47,12 @@
 <div class="background-img-info-header">
     <div class="text-info-con">
         <h1 class="normal-header">Foto og Film</h1>
-        <p class="normal-text">Jeg har en stor interesse for foto og film. Du kan se <a style="cursor: pointer;" onclick="myFunction()">reklamevideoen</a> jeg lagde av en
-            energidrikk nedenfor. Den ble lagd for et skoleprosjekt og jeg ble ikke betalt for å lage den.
+        <p class="normal-text">Jeg har en stor interesse for foto og film. Du kan se
+            <a style="cursor: pointer;" onclick="myFunction()">reklamevideoen</a> jeg lagde av en energidrikk nedenfor.
+            Den ble lagd for et skoleprosjekt og jeg ble ikke betalt for å lage den.
             <br>
-            Du kan også se noen bilder jeg har tatt lengre nede. Hvis du har noen spørsmål, <a href="/HTML/contact.html">kontakt</a>
-            meg for en uforpliktet samtale.
+            Du kan også se noen <a style="cursor: pointer;" onclick="Bilder()">bilder</a> jeg har tatt lengre nede. Hvis
+            du har noen spørsmål, <a href="/HTML/contact.html">kontakt meg</a> for en uforpliktet samtale.
         </p>
     </div>
 </div>
@@ -130,7 +132,7 @@
         </video>
     </div>
 
-    <h1 class="normal-header" style="font-size: 40px">Referansebilder</h1>
+    <h1 class="normal-header" id="referansebidler" style="font-size: 40px">Referansebilder</h1>
     <div class="my-gallery" style="" itemscope itemtype="https://schema.org/ImageGallery">
 
         <figure itemprop="associatedMedia" itemscope itemtype="https://schema.org/ImageObject">

@@ -6,7 +6,7 @@
 }
 
 .background-img-info-header {
-    padding-top: 300px;
+    padding-top: 50vh;
     background: url('../Photo/IMG_4282.jpg') center/ cover no-repeat fixed;);
 }
 
@@ -86,7 +86,7 @@ figure {
 
 @media only screen and (max-width: 800px) {
     .background-img-info-header {
-        padding-top: 70vh;
+        padding-top: 50vh;
         background: url('../Photo/IMG_4569.jpg') center 0 / cover no-repeat fixed;);
     }
 }

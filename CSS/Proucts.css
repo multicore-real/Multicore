@@ -4,7 +4,7 @@
 }
 
 .background-img-info-header {
-    padding-top: 300px;
+    padding-top: 50vh;
     background: url('/3D_printer/S7201126.jpg') center/ cover no-repeat fixed;);
 }
 
@@ -125,7 +125,7 @@
     }
 
     .background-img-info-header {
-        padding-top: 70vh;
+        padding-top: 50vh;
         background: url('/3D_printer/S7201138.jpg') top/ cover no-repeat fixed;);
     }
 }
