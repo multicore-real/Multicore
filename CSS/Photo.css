@@ -5,6 +5,12 @@
     transition-duration: 0.2s;
 }
 
+.normal-text a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: rgba(237, 239, 251, 0.4);
+}
+
 figure {
     display: inline-block;
     margin: 0;

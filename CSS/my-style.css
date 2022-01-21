@@ -201,6 +201,7 @@ a {
 }
 
 #menu-scroll {
+    top: 0px;
     padding-bottom: 78px;
     transition: 0.3s;
     z-index: 15;

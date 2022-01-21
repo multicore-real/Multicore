@@ -3,6 +3,12 @@
     color: var(--text-color-black);
 }
 
+.normal-text a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: rgba(237, 239, 251, 0.4);
+}
+
 #product-con {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     z-index: 2;

@@ -16,6 +16,8 @@ window.onscroll = function () {
             document.getElementById("menu-scroll").style.top = "0px";
         }
     }
+
+
     prevScrollpos = currentScrollPos;
     if (currentScrollPos > 500) {
         document.getElementById("Multicore-txt").style.display = "none";
