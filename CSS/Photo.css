@@ -5,6 +5,11 @@
     transition-duration: 0.2s;
 }
 
+.background-img-info-header {
+    padding-top: 300px;
+    background: url('../Photo/IMG_4282.jpg') center/ cover no-repeat fixed;);
+}
+
 .normal-text a {
     color: inherit;
     text-decoration: underline;
@@ -76,5 +81,12 @@ figure {
         min-width: 100vw;
         height: auto;
         max-height: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .background-img-info-header {
+        padding-top: 70vh;
+        background: url('../Photo/IMG_4569.jpg') center 0 / cover no-repeat fixed;);
     }
 }

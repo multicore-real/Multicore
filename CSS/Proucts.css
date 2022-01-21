@@ -3,6 +3,11 @@
     color: var(--text-color-black);
 }
 
+.background-img-info-header {
+    padding-top: 300px;
+    background: url('/3D_printer/S7201126.jpg') center/ cover no-repeat fixed;);
+}
+
 .normal-text a {
     color: inherit;
     text-decoration: underline;
@@ -117,6 +122,11 @@
     .card {
         margin-bottom: 100px;
         display: block;
+    }
+
+    .background-img-info-header {
+        padding-top: 70vh;
+        background: url('/3D_printer/S7201138.jpg') top/ cover no-repeat fixed;);
     }
 }
 

@@ -29,7 +29,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 240px;
+    padding-top: 240px;background: url('../PC Stand/Elias-pose web.png') center 100px / contain no-repeat fixed
 }
 
 .text-info-con {
@@ -201,7 +201,7 @@ a {
 }
 
 #menu-scroll {
-    top: 0px;
+    top: 0;
     padding-bottom: 78px;
     transition: 0.3s;
     z-index: 15;

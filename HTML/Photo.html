@@ -10,7 +10,7 @@
     <link href="../CSS/Photo.css" rel="stylesheet" type="text/css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EY4JVNRYW5"></script>
-    <script>
+    <script src="/Java-Script/style.js">
         window.dataLayer = window.dataLayer || [];
 
         function gtag() {
@@ -43,10 +43,10 @@
 
 <span id="menu-preset"></span>
 
-<div class="background-img-info-header" style="background-image: url('/Photo/IMG_4282.jpg')">
+<div class="background-img-info-header">
     <div class="text-info-con">
         <h1 class="normal-header">Foto og Film</h1>
-        <p class="normal-text">Jeg har en stor interesse for foto og film. Du kan se reklamevideoen jeg lagde av en
+        <p class="normal-text">Jeg har en stor interesse for foto og film. Du kan se <a style="cursor: pointer;" onclick="myFunction()">reklamevideoen</a> jeg lagde av en
             energidrikk nedenfor. Den ble lagd for et skoleprosjekt og jeg ble ikke betalt for å lage den.
             <br>
             Du kan også se noen bilder jeg har tatt lengre nede. Hvis du har noen spørsmål, <a href="/HTML/contact.html">kontakt</a>
@@ -125,7 +125,7 @@
 <div id="picture-con">
     <h1 class="normal-header" style="font-size: 40px">Referansevideo</h1>
     <div class="video-con">
-        <video class="video" controls>
+        <video class="video" id="video" controls>
             <source src="/Video/Battery-fresh-web.mp4">
         </video>
     </div>
