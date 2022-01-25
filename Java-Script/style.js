@@ -18,6 +18,6 @@ function produkter() {
     document.getElementById("product-con").scrollIntoView({behavior: "smooth"});
 }
 
-function grafisk_design(){
+function grafisk_design() {
     document.getElementById("graphic-con").scrollIntoView({behavior: "smooth"});
 }

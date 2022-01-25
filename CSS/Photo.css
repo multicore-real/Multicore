@@ -7,7 +7,8 @@
 
 .background-img-info-header {
     padding-top: 50vh;
-    background: url('../Photo/IMG_4282.jpg') center/ cover no-repeat fixed;);
+    background: url('../Photo/IMG_4282.jpg') center/ cover no-repeat fixed;
+);
 }
 
 .normal-text a {
@@ -32,7 +33,7 @@ figure {
 }
 
 @media only screen and (max-width: 330px) {
-    .video{
+    .video {
         left: 0 !important;
     }
 }
@@ -52,14 +53,14 @@ figure {
     background-color: var(--white-color);
 }
 
-.my-gallery{
+.my-gallery {
     z-index: 1;
     background-color: var(--background-color);
     padding: 15px 0;
 }
 
 #picture-con .normal-header {
-    filter: drop-shadow( 0 0 60px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(0 0 60px rgba(0, 0, 0, 0.4));
     background-color: var(--white-color);
     padding: 5vh 0;
 }
@@ -70,9 +71,10 @@ figure {
         max-height: 20vw;
     }
 }
+
 @media only screen and (max-width: 500px) {
 
-    .my-gallery{
+    .my-gallery {
         padding: 20px 0;
     }
 
@@ -87,6 +89,7 @@ figure {
 @media only screen and (max-width: 800px) {
     .background-img-info-header {
         padding-top: 50vh;
-        background: url('../Photo/IMG_4569.jpg') center 0 / cover no-repeat fixed;);
+        background: url('../Photo/IMG_4569.jpg') center 0 / cover no-repeat fixed;
+    );
     }
 }

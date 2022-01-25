@@ -17,7 +17,6 @@
   "undef": true,
   "unused": true,
   "maxlen": 140,
-
   "predef": [
     "define",
     "module",

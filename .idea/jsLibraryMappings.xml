@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="file://$PROJECT_DIR$" libraries="{911551dd30, jquery-3.6.0}" />
+    <file url="file://$PROJECT_DIR$" libraries="{weglot}" />
+    <file url="file://$PROJECT_DIR$/Java-Script/my-style.js" libraries="{jquery-3.6.0}" />
+    <file url="file://$PROJECT_DIR$/Java-Script/products.js" libraries="{jquery-3.6.0}" />
+    <file url="file://$PROJECT_DIR$/Java-Script/style.js" libraries="{jquery-3.6.0}" />
+    <file url="PROJECT" libraries="{jquery-3.6.0}" />
   </component>
 </project>

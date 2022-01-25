@@ -1,5 +1,6 @@
 @charset "UTF-8";
 .graphic-row {
+    z-index: 1;
     max-height: 17vw;
     transition-timing-function: ease-in-out;
     transition-duration: 0.2s;
@@ -7,7 +8,7 @@
 
 .background-img-info-header {
     padding-top: 50vh;
-    background: url('/logo/logo.svg')  top / 45% no-repeat fixed, rgb(27, 38, 54);
+    background: url('/logo/logo.svg') top / 45% no-repeat fixed, linear-gradient(180deg, rgba(27, 38, 54, 1) 0%, rgba(28, 39, 56, 1) 16%, rgba(46, 59, 86, 1) 100%);
 }
 
 .normal-text a {
@@ -17,16 +18,18 @@
 }
 
 figure {
+    z-index: 1;
     display: inline-block;
     margin: 0;
     padding: 0;
 }
 
 .graphic-row:hover {
+    z-index: 1;
     transform: scale(1.02);
 }
 
-.my-gallery{
+.my-gallery {
 
     z-index: 1;
     background-color: var(--background-color);
@@ -35,12 +38,13 @@ figure {
 
 #graphic-con .normal-header {
     z-index: 5;
-    filter: drop-shadow( 0 0 60px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(0 0 60px rgba(0, 0, 0, 0.4));
     background-color: var(--white-color);
     padding: 5vh 0;
 }
 
 #graphic-con {
+    z-index: 1;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     text-align: center;
     background-color: var(--white-color);
@@ -55,7 +59,7 @@ figure {
 
 @media only screen and (max-width: 500px) {
 
-    .my-gallery{
+    .my-gallery {
         padding: 20px 0;
     }
 
@@ -70,6 +74,7 @@ figure {
 @media only screen and (max-width: 800px) {
     .background-img-info-header {
         padding-top: 50vh;
-        background: url('/Graphic-pictures/The graphic designer.jpg') center/ cover no-repeat fixed;);
+        background: url('/Graphic-pictures/The graphic designer.jpg') center/ cover no-repeat fixed;
+    );
     }
 }

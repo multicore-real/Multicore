@@ -29,7 +29,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 240px;background: url('../PC Stand/Elias-pose web.png') center 100px / contain no-repeat fixed
+    padding-top: 240px;
+    background: url('../PC Stand/Elias-pose web.png') center 100px / contain no-repeat fixed
 }
 
 .text-info-con {
