@@ -88,7 +88,7 @@ figure {
 
 @media only screen and (max-width: 800px) {
     .background-img-info-header {
-        padding-top: 80vh;
+        padding-top: 75vh;
         background: url('../Photo/IMG_4569.jpg') center 0 / cover no-repeat fixed;
     );
     }

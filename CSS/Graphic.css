@@ -73,7 +73,7 @@ figure {
 
 @media only screen and (max-width: 800px) {
     .background-img-info-header {
-        padding-top: 80vh;
+        padding-top: 75vh;
         background: url('/Graphic-pictures/The graphic designer.jpg') center/ cover no-repeat fixed;
     );
     }
