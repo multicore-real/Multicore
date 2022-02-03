@@ -263,6 +263,8 @@ a {
 }
 
 .fa-ellipsis-h {
+    left: 100%;
+    transform: translateX(-70px);
     color: #718e9b;
     z-index: 9;
     mix-blend-mode: difference;
@@ -277,11 +279,12 @@ a {
     display: none;
     font-family: helvetica, serif;
     height: 100%;
-    width: 0;
+    width: 100%;
+    float: right;
     position: fixed;
     z-index: 10;
     top: 0;
-    left: 0;
+    left: 100%;
     white-space: nowrap;
     background-color: #111;
     overflow-x: hidden;

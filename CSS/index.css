@@ -105,6 +105,17 @@
     background-color: #e5eefd;
 }
 
+#fade {
+    display: flex;
+    animation: fade-in;
+    animation-duration: 2s;
+}
+
+@keyframes fade-in {
+    from {opacity: 0; transform: translateY(150px)}
+    to {opacity: 100%; transform: translateY(0)}
+}
+
 @media only screen and (max-width: 1000px) {
     #slides-menu-con {
         display: block !important;

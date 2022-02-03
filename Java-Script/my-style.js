@@ -1,9 +1,9 @@
 $("#menu-preset").load("/presets/menu.html");
 $("#end-preset").load("/presets/end.html");
 
-var prevScrollpos = window.pageYOffset;
+let prevScrollpos = window.pageYOffset;
 window.onscroll = function () {
-    var currentScrollPos = window.pageYOffset;
+    let currentScrollPos = window.pageYOffset;
     if (currentScrollPos > 100) {
         if (prevScrollpos > currentScrollPos) {
             document.getElementById("menu-scroll").style.transitionDelay = "100ms";
@@ -16,8 +16,6 @@ window.onscroll = function () {
             document.getElementById("menu-scroll").style.top = "0px";
         }
     }
-
-
     prevScrollpos = currentScrollPos;
     if (currentScrollPos > 500) {
         document.getElementById("Multicore-txt").style.display = "none";
