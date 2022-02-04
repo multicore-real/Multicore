@@ -1,9 +1,9 @@
 function openNav() {
-    document.getElementById("mySidenav").style.width = "110%";
+    document.getElementById("mySidenav").style.left = "0";
 }
 
 function closeNav() {
-    document.getElementById("mySidenav").style.left = "100%";
+    document.getElementById("mySidenav").style.left = "-100%";
 }
 
 function myFunction() {

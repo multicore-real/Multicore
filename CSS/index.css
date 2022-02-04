@@ -104,7 +104,6 @@
     box-shadow: 0 0 70px rgba(0, 0, 0, 0.3);
     background-color: #e5eefd;
 }
-
 #fade {
     display: flex;
     animation: fade-in;
@@ -118,6 +117,9 @@
 
 @media only screen and (max-width: 1000px) {
     #slides-menu-con {
+        display: block !important;
+    }
+    #fade{
         display: block !important;
     }
 
