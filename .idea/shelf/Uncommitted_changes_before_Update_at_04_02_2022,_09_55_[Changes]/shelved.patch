@@ -1,0 +1,85 @@
+Index: Java-Script/style.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>function openNav() {\n    document.getElementById(\"mySidenav\").style.width = \"110%\";\n}\n\nfunction closeNav() {\n    document.getElementById(\"mySidenav\").style.left = \"100%\";\n}\n\nfunction myFunction() {\n    document.getElementById(\"video\").scrollIntoView({behavior: \"smooth\"});\n}\n\nfunction Bilder() {\n    document.getElementById(\"referansebidler\").scrollIntoView({behavior: \"smooth\"});\n}\n\nfunction produkter() {\n    document.getElementById(\"product-con\").scrollIntoView({behavior: \"smooth\"});\n}\n\nfunction grafisk_design() {\n    document.getElementById(\"graphic-con\").scrollIntoView({behavior: \"smooth\"});\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Java-Script/style.js b/Java-Script/style.js
+--- a/Java-Script/style.js	(revision 24b2e3ae2d215a9e217e72d2b1a78096724c40b7)
++++ b/Java-Script/style.js	(date 1643964846274)
+@@ -1,9 +1,9 @@
+ function openNav() {
+-    document.getElementById("mySidenav").style.width = "110%";
++    document.getElementById("mySidenav").style.left = "0";
+ }
+ 
+ function closeNav() {
+-    document.getElementById("mySidenav").style.left = "100%";
++    document.getElementById("mySidenav").style.left = "-100%";
+ }
+ 
+ function myFunction() {
+Index: CSS/index.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>@charset \"UTF-8\";\n/* CSS Document */\n\n@media only screen and (max-width: 451px) and (min-width: 352px) {\n    #front-multicore {\n        font-size: 25px !important;\n    }\n}\n\n@media only screen and (max-width: 352px) and (min-width: 274px) {\n    #front-multicore {\n        font-size: 20px !important;\n    }\n}\n\n@media only screen and (max-width: 274px) {\n    #front-multicore {\n        font-size: 15px !important;\n    }\n}\n\n#front-multicore {\n    text-align: center;\n    font-size: 35px;\n    color: #EDEFFB;\n    background: url('../PC Stand/Elias-pose web.png') center 100px / contain no-repeat fixed, linear-gradient(180deg, rgba(27, 38, 54, 1) 0%, rgba(28, 39, 56, 1) 16%, rgba(46, 59, 86, 1) 100%) fixed;\n    text-shadow: -2px 2px 8px rgba(0, 0, 0, 0.5);\n    font-family: helvetica, serif;\n    text-transform: uppercase;\n    z-index: 1;\n    padding-bottom: 75vh;\n}\n\n#Multicore-txt {\n    z-index: 1;\n    position: fixed;\n    left: 50%;\n    top: 50%;\n    transform: translate(-50%, -50%);\n}\n\n.icon-header {\n    font-family: helvetica, serif;\n    color: #353536;\n}\n\n.icon {\n    z-index: 2;\n    width: 30vw;\n    min-width: 200px;\n    max-width: 300px;\n    vertical-align: top;\n    text-align: center;\n    filter: brightness(0);\n    transform: scale(0.95);\n}\n\n.front-text {\n    margin-left: 2vw;\n    margin-right: 2vw;\n    margin-top: 50px;\n    font-weight: 300;\n    position: relative;\n    z-index: 2;\n    text-align: center;\n    font-size: 23px;\n    color: #353536;\n    font-family: helvetica, serif;\n    z-index: 2;\n}\n\n.front-text d {\n    position: relative;\n    z-index: 2;\n    line-height: 22px;\n    letter-spacing: 2px;\n}\n\n.bc-pic-box {\n    position: relative;\n    z-index: 2;\n}\n\n.icon-and-img {\n    vertical-align: top;\n    text-align: center;\n    padding-top: 5vh;\n    padding-bottom: 5vh;\n    border-style: none;\n    border-radius: 10px;\n    margin: auto;\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n    position: relative;\n    z-index: 2;\n    display: inline-block;\n}\n\n#slides-menu-con {\n    display: flex;\n    z-index: 2;\n    position: relative;\n    box-shadow: 0 0 70px rgba(0, 0, 0, 0.3);\n    background-color: #e5eefd;\n}\n\n#fade {\n    display: flex;\n    animation: fade-in;\n    animation-duration: 2s;\n}\n\n@keyframes fade-in {\n    from {opacity: 0; transform: translateY(150px)}\n    to {opacity: 100%; transform: translateY(0)}\n}\n\n@media only screen and (max-width: 1000px) {\n    #slides-menu-con {\n        display: block !important;\n    }\n\n    .icon {\n        width: 90vw;\n        max-width: 400px;\n    }\n\n    .front-text {\n        margin-left: 10vw;\n        margin-right: 10vw;\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CSS/index.css b/CSS/index.css
+--- a/CSS/index.css	(revision 24b2e3ae2d215a9e217e72d2b1a78096724c40b7)
++++ b/CSS/index.css	(date 1643964421893)
+@@ -104,7 +104,6 @@
+     box-shadow: 0 0 70px rgba(0, 0, 0, 0.3);
+     background-color: #e5eefd;
+ }
+-
+ #fade {
+     display: flex;
+     animation: fade-in;
+@@ -120,6 +119,9 @@
+     #slides-menu-con {
+         display: block !important;
+     }
++    #fade{
++        display: block !important;
++    }
+ 
+     .icon {
+         width: 90vw;
+Index: CSS/my-style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>@charset \"UTF-8\";\n/* CSS Document */\n:root {\n    --text-color-white: #EDEFFB;\n\n    --text-color-black: #353536;\n\n    --background-color: #2E3B56;\n\n    --dark-color: #1B2636;\n\n    --white-color: #e5eefd;\n}\n\nbody {\n    padding: 0;\n    background-color: var(--white-color);\n    margin: 0;\n}\n\n#hide {\n    display: block;\n    position: relative;;\n    padding-bottom: 82px !important;\n    background-color: var(--dark-color);\n}\n\n.background-img-info-header {\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position: center;\n    padding-top: 240px;\n    background: url('../PC Stand/Elias-pose web.png') center 100px / contain no-repeat fixed\n}\n\n.text-info-con {\n    border-radius: 8px 8px 0 0;\n    margin: auto;\n    padding-bottom: 120px;\n    padding-top: 100px;\n    max-width: 80vw;\n    background-color: var(--background-color);\n}\n\n.text-info-con .normal-text {\n    line-height: 32px;\n    font-size: 25px;\n    text-align: center;\n    max-width: 60vw;\n    color: var(--text-color-white);\n}\n\n.text-info-con .normal-header {\n    font-size: 37px;\n    padding: 10px 0;\n    margin: auto;\n    font-family: helvetica, serif;\n    color: var(--text-color-white);\n    text-align: center;\n}\n\n@media only screen and (max-width: 800px) {\n    .text-info-con {\n        max-width: inherit;\n    }\n\n    .normal-text {\n        max-width: 80vw !important;\n    }\n\n    .background-img-info-header {\n        background-size: 120vw;\n        background-position: top;\n    }\n}\n\n.card-con {\n    z-index: 2;\n    background-color: var(--dark-color);\n    padding: 50px 0;\n}\n\n.card-img {\n    float: left;\n    display: inline;\n    border-radius: 3px;\n    margin-top: 15px;\n    margin-left: 15px;\n    max-height: 200px;\n}\n\n.card-header {\n    color: #eceff1;\n    font-max-size: 22px;\n    font-weight: 400;\n    display: block;\n    float: left;\n    margin-left: 30px;\n    margin-top: 20px;\n}\n\n.card-text {\n    color: #e7e7e7;\n    font-max-size: 18px;\n    margin-top: 0;\n    font-weight: 300;\n    margin-left: 30px;\n    display: block;\n    float: left;\n}\n\n#elias-card {\n    font-family: helvetica, serif;\n    border-radius: 3px;\n    max-width: 500px;\n    height: 230px;\n    background-color: var(--background-color);\n    margin: auto;\n}\n\n\n@media only screen and (max-width: 500px) {\n    .card-img {\n        max-height: 300px;\n        margin-left: auto;\n        margin-top: 25px;\n        float: none;\n    }\n\n    #elias-card {\n        text-align: center;\n        height: 500px;\n        max-width: 300px;\n    }\n\n    .card-text {\n        padding-top: 15px;\n        margin: auto;\n        float: none;\n    }\n\n    .card-header {\n        margin: auto;\n        padding-top: 25px;\n        float: none;\n    }\n}\n\n.normal-text {\n    margin: auto;\n    color: var(--text-color-black);\n    font-weight: 300;\n    line-height: 23px;\n    letter-spacing: 2px;\n    font-size: 20px;\n    position: relative;\n    font-family: helvetica, serif;\n}\n\n.normal-text a {\n    color: inherit;\n    text-decoration: underline;\n    text-decoration-color: rgba(0, 16, 16, 0.4);\n}\n\n.normal-header {\n    margin: auto;\n    font-family: helvetica, serif;\n    color: var(--text-color-black);\n    text-align: center;\n}\n\n@media only screen and (max-width: 700px) {\n    .normal-text p {\n        margin-left: 0 !important;\n        text-align: center;\n    }\n}\n\n#contact-form-thanks {\n    position: relative;\n    color: var(--text-color-white);\n    font-family: helvetica, serif;\n}\n\na {\n    text-decoration: none;\n}\n\n#menu-scroll img:hover {\n    transform: scale(1.05);\n}\n\n#menu-scroll a:hover {\n    transform: scale(1.05);\n    text-decoration: underline;\n}\n\n#menu-scroll:visited {\n    color: var(--text-color-white);\n    text-decoration: none;\n}\n\n#menu-scroll {\n    top: 0;\n    padding-bottom: 78px;\n    transition: 0.3s;\n    z-index: 15;\n    position: fixed;\n    display: block;\n    overflow: hidden;\n    white-space: nowrap;\n    font-size: 18px;\n    background-color: var(--dark-color);\n    padding-top: 20px;\n    padding-bottom: 20px;\n    width: 100%;\n}\n\n.menutext {\n    font-family: Gotham, Helvetica, serif;\n    letter-spacing: 0;\n    color: var(--text-color-white);\n    display: inline-block;\n    padding: 10px 25px;\n}\n\n.logomenu {\n    margin-left: 17px;\n    position: absolute;\n}\n\n.productsmenu {\n    margin-left: 75px;\n}\n\n@media only screen and (max-width: 805px) {\n    #menu {\n        display: none !important;\n    }\n\n    #menu-scroll {\n        display: none !important;\n    }\n\n    .sidenav {\n        display: inline-block !important;\n    }\n\n    .fa-ellipsis-h {\n        display: inherit !important;\n    }\n\n    #hide {\n        display: none !important;\n    }\n}\n\n.fa-times {\n    position: fixed;\n    opacity: 1;\n    font-size: 35px;\n}\n\n.fa-ellipsis-h {\n    left: 100%;\n    transform: translateX(-70px);\n    color: #718e9b;\n    z-index: 9;\n    mix-blend-mode: difference;\n    position: fixed;\n    display: none;\n    margin-left: 15px;\n    margin-top: 10px;\n    font-size: 35px;\n}\n\n.sidenav {\n    display: none;\n    font-family: helvetica, serif;\n    height: 100%;\n    width: 100%;\n    float: right;\n    position: fixed;\n    z-index: 10;\n    top: 0;\n    left: 100%;\n    white-space: nowrap;\n    background-color: #111;\n    overflow-x: hidden;\n    transition: 0.5s;\n    padding-top: 60px;\n}\n\n.sidenav a {\n    padding: 8px 8px 8px 32px;\n    text-decoration: none;\n    font-size: 25px;\n    color: #818181;\n    display: block;\n    transition: 0.3s;\n}\n\n.sidenav a:hover {\n    color: #f1f1f1;\n}\n\n.sidenav .closebtn {\n    position: absolute;\n    top: 0;\n    right: 25px;\n    font-size: 36px;\n    margin-left: 50px;\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CSS/my-style.css b/CSS/my-style.css
+--- a/CSS/my-style.css	(revision 24b2e3ae2d215a9e217e72d2b1a78096724c40b7)
++++ b/CSS/my-style.css	(date 1643964852049)
+@@ -263,8 +263,7 @@
+ }
+ 
+ .fa-ellipsis-h {
+-    left: 100%;
+-    transform: translateX(-70px);
++    transform: translateX(5px);
+     color: #718e9b;
+     z-index: 9;
+     mix-blend-mode: difference;
+@@ -279,12 +278,12 @@
+     display: none;
+     font-family: helvetica, serif;
+     height: 100%;
+-    width: 100%;
++    width: 300px;
+     float: right;
+     position: fixed;
+     z-index: 10;
+     top: 0;
+-    left: 100%;
++    left: -100%;
+     white-space: nowrap;
+     background-color: #111;
+     overflow-x: hidden;

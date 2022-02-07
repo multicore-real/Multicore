@@ -1,0 +1,28 @@
+Index: CSS/index.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>@charset \"UTF-8\";\n/* CSS Document */\n\n@media only screen and (max-width: 451px) and (min-width: 352px) {\n    #front-multicore {\n        font-size: 25px !important;\n    }\n}\n\n@media only screen and (max-width: 352px) and (min-width: 274px) {\n    #front-multicore {\n        font-size: 20px !important;\n    }\n}\n\n@media only screen and (max-width: 274px) {\n    #front-multicore {\n        font-size: 15px !important;\n    }\n}\n\n#front-multicore {\n    text-align: center;\n    font-size: 35px;\n    color: #EDEFFB;\n    background: url('../PC Stand/Elias-pose web.png') center 100px / contain no-repeat fixed, linear-gradient(180deg, rgba(27, 38, 54, 1) 0%, rgba(28, 39, 56, 1) 16%, rgba(46, 59, 86, 1) 100%) fixed;\n    text-shadow: -2px 2px 8px rgba(0, 0, 0, 0.5);\n    font-family: helvetica, serif;\n    text-transform: uppercase;\n    z-index: 1;\n    padding-bottom: 75vh;\n}\n\n#Multicore-txt {\n    z-index: 1;\n    position: fixed;\n    left: 50%;\n    top: 50%;\n    transform: translate(-50%, -50%);\n}\n\n.icon-header {\n    font-family: helvetica, serif;\n    color: #353536;\n}\n\n.icon {\n    z-index: 2;\n    width: 30vw;\n    min-width: 200px;\n    max-width: 300px;\n    vertical-align: top;\n    text-align: center;\n    filter: brightness(0);\n    transform: scale(0.95);\n}\n\n.front-text {\n    margin-left: 2vw;\n    margin-right: 2vw;\n    margin-top: 50px;\n    font-weight: 300;\n    position: relative;\n    z-index: 2;\n    text-align: center;\n    font-size: 23px;\n    color: #353536;\n    font-family: helvetica, serif;\n    z-index: 2;\n}\n\n.front-text d {\n    position: relative;\n    z-index: 2;\n    line-height: 22px;\n    letter-spacing: 2px;\n}\n\n.bc-pic-box {\n    position: relative;\n    z-index: 2;\n}\n\n.icon-and-img {\n    vertical-align: top;\n    text-align: center;\n    padding-top: 5vh;\n    padding-bottom: 5vh;\n    border-style: none;\n    border-radius: 10px;\n    margin: auto;\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n    position: relative;\n    z-index: 2;\n    display: inline-block;\n}\n\n#slides-menu-con {\n    display: flex;\n    z-index: 2;\n    position: relative;\n    box-shadow: 0 0 70px rgba(0, 0, 0, 0.3);\n    background-color: #e5eefd;\n}\n\n#fade {\n    display: flex;\n    animation: fade-in;\n    animation-duration: 2s;\n}\n\n@keyframes fade-in {\n    from {opacity: 0; transform: translateY(150px)}\n    to {opacity: 100%; transform: translateY(0)}\n}\n\n@media only screen and (max-width: 1000px) {\n    #slides-menu-con {\n        display: block !important;\n    }\n\n    .icon {\n        width: 90vw;\n        max-width: 400px;\n    }\n\n    .front-text {\n        margin-left: 10vw;\n        margin-right: 10vw;\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CSS/index.css b/CSS/index.css
+--- a/CSS/index.css	(revision 24b2e3ae2d215a9e217e72d2b1a78096724c40b7)
++++ b/CSS/index.css	(date 1643965047680)
+@@ -104,7 +104,6 @@
+     box-shadow: 0 0 70px rgba(0, 0, 0, 0.3);
+     background-color: #e5eefd;
+ }
+-
+ #fade {
+     display: flex;
+     animation: fade-in;
+@@ -120,6 +119,9 @@
+     #slides-menu-con {
+         display: block !important;
+     }
++    #fade{
++        display: block !important;
++    }
+ 
+     .icon {
+         width: 90vw;
