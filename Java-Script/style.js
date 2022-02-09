@@ -1,9 +1,15 @@
 function openNav() {
-    document.getElementById("mySidenav").style.left = "0";
+    $(menutext).addClass("animation-menu-text-in").css("transform", "translateX(-300px)");
+    $( ".sidenav" ).animate({
+        width: "270px",
+    },450);
 }
-
+let menutext = ".menutext-phone";
 function closeNav() {
-    document.getElementById("mySidenav").style.left = "-100%";
+    $( ".sidenav" ).animate({
+        width: "0",
+    },450);
+    $(menutext).removeClass("animation-menu-text-in").css("transform", "translateX(0)");
 }
 
 function myFunction() {
