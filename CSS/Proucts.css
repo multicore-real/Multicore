@@ -35,6 +35,50 @@
     height: 400px;
     width: 300px;
     text-align: center;
+    transition: 1s;
+}
+
+.card:hover {
+    transform: scale(1.06);
+}
+
+.card:hover .second-img {
+    opacity: 1 !important;
+}
+
+.card:hover .first-img {
+    opacity: 0 !important;
+}
+
+.card:after {
+    transform: scale(1);
+}
+
+.first-img {
+    transition: 0.5s;
+}
+
+.second-img {
+    transition: 0.5s;
+    z-index: 2;
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    left: 0;
+}
+
+#img2-1 {
+    margin-top: 40px;
+    width: 290px;
+}
+
+#img2-2 {
+    transform: translateX(20%);
+    height: 200px;
+}
+
+#img2-3 {
+    height: 200px;
 }
 
 #product-img-PC-Stand {

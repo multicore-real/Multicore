@@ -20,8 +20,23 @@
     max-height: 200px;
 }
 
+#side-img {
+    float: right;
+    margin-top: 40px;
+    margin-left: 10px;
+    max-height: 370px;
+    border: 8px solid white;
+    box-shadow: 0 0 10px rgb(0,0,0, 10%);
+}
+
 @media only screen and (max-width: 700px) {
     #logo {
+        float: none;
+    }
+
+    #side-img {
+        margin-left: 0;
+        margin-top: 0;
         float: none;
     }
 
