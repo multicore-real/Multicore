@@ -20,7 +20,9 @@
     max-height: 200px;
 }
 
-#side-img {
+#side-img-phone {
+    margin: auto;
+    display: none;
     float: right;
     margin-top: 40px;
     margin-left: 10px;
@@ -29,15 +31,28 @@
     box-shadow: 0 0 10px rgb(0,0,0, 10%);
 }
 
-@media only screen and (max-width: 700px) {
+#side-img {
+    float: right;
+    margin-left: 10px;
+    max-height: 370px;
+    border: 8px solid white;
+    box-shadow: 0 0 10px rgb(0,0,0, 10%);
+}
+
+@media only screen and (max-width: 850px) {
     #logo {
         float: none;
     }
 
-    #side-img {
+    #side-img-phone {
         margin-left: 0;
         margin-top: 0;
         float: none;
+        display: initial;
+    }
+
+    #side-img {
+        display: none;
     }
 
     .multicore-info {
