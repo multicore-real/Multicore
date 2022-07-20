@@ -51,7 +51,6 @@
 }
 
 .second-img {
-    transform: translateZ(9px);
     transition: 0.5s;
     z-index: 2;
     position: absolute;
