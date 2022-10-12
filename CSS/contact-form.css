@@ -2,6 +2,23 @@
     display: block;
 }
 
+.vanlig-text {
+    text-align: center;
+    margin-top: 33vh;
+    margin-bottom: 33vh;
+    font-size: 20px;
+    color: var(--text-color-white);
+}
+
+.eliasmail {
+    color: var(--text-color-white);
+    text-decoration: none;
+}
+
+.eliasmail:hover {
+    text-decoration: underline;
+}
+
 #contact-con {
     height: 80vh;
     background-color: #2E3B56;
